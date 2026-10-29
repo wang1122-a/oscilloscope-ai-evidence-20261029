@@ -1,0 +1,66 @@
+{
+  "retrieved_date": "2026-10-29",
+  "note": "原图不修改；设备日期与真实拍摄时间需区分，文件名和设备时间不单独证明当前版本。",
+  "images": [
+    {
+      "file": "Screenshot_20260918-092531.png",
+      "device_path": "/sdcard/Pictures/Screenshots/Screenshot_20260918-092531.png",
+      "sha256": "a0a2727ff5688ce32e68f9a17224e5aeb9eed105d985ab326de448a8f4198604"
+    },
+    {
+      "file": "Screenshot_20260918-092658.png",
+      "device_path": "/sdcard/Pictures/Screenshots/Screenshot_20260918-092658.png",
+      "sha256": "1684c5e1c53aba833774dc88b51c2e3e7ebd2b93c81a14bbc38f042585255dc9"
+    },
+    {
+      "file": "Screenshot_20260918-092722.png",
+      "device_path": "/sdcard/Pictures/Screenshots/Screenshot_20260918-092722.png",
+      "sha256": "2f3f77883e2aca34057fa937f84f6c4394d5b2c7789327868cf57467c825f575"
+    },
+    {
+      "file": "Screenshot_20260918-092922.png",
+      "device_path": "/sdcard/Pictures/Screenshots/Screenshot_20260918-092922.png",
+      "sha256": "3e9dfc9d4e5b66ecac02d1954fcd8202cd062c3cb9995e9f4f65e128ad09f01a"
+    },
+    {
+      "file": "Screenshot_20260918-093146.png",
+      "device_path": "/sdcard/Pictures/Screenshots/Screenshot_20260918-093146.png",
+      "sha256": "031e7a7506fb00057d7bf1e0dcd7e3bfc759bbc3d7d7a69789fdc60d062c9a35"
+    },
+    {
+      "file": "codex-de-review.png",
+      "device_path": "/sdcard/codex-de-review.png",
+      "sha256": "e8a40cad5c32ae259dbafbd4442d056c359421d6e4359a04ca44730e2e3d2362"
+    },
+    {
+      "file": "owon-stage1-screen.png",
+      "device_path": "/sdcard/owon-stage1-screen.png",
+      "sha256": "5dc32ce1dff4d06f29d4131f9b73cdf30d35ee52d3f57b89391337382e865ae2"
+    },
+    {
+      "file": "owon-stage1-overlay.png",
+      "device_path": "/sdcard/owon-stage1-overlay.png",
+      "sha256": "a3cf163af9794ce0f948718b1b60ee63889e2f3903fb038ef2c2a61317ac74d3"
+    },
+    {
+      "file": "owon-diagnostic-ready.png",
+      "device_path": "/sdcard/owon-diagnostic-ready.png",
+      "sha256": "504bd4b2c23a0294ea7c2d2555b06a9e4ce69416af97ec6bf1d13f4bde1db814"
+    },
+    {
+      "file": "chinese_ab_ui.png",
+      "device_path": "/sdcard/chinese_ab_ui.png",
+      "sha256": "29244ec5e3ed4b1162bcaa5e922a2bf8ca2b4ae3a39b289bfc4c8cf75ef349aa"
+    },
+    {
+      "file": "chinese_ab_highlight.png",
+      "device_path": "/sdcard/chinese_ab_highlight.png",
+      "sha256": "1d20ec730fc09c1a0b886529a11b08fbaafdb3d1efd38bd5dce9a8d70957d981"
+    },
+    {
+      "file": "chinese_ab_restored.png",
+      "device_path": "/sdcard/chinese_ab_restored.png",
+      "sha256": "818bb9ee61fa867d385e627bb8558142e3f79d96bd3aa3ef9f7adeb2fed17765"
+    }
+  ]
+}
