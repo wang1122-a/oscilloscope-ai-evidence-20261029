@@ -1,0 +1,1612 @@
+[
+  {
+    "path": "build.gradle.kts",
+    "bytes": 142,
+    "sha256": "50425357e4449207a6e3098fa4f4dc66864a870859025051fc809589ddb858df"
+  },
+  {
+    "path": "gradle.properties",
+    "bytes": 376,
+    "sha256": "43f893026fef3e469e4e74e90fbe4a669618f328be71e498fe7fe650a9cc734b"
+  },
+  {
+    "path": "gradlew",
+    "bytes": 8762,
+    "sha256": "a3648413b47ef77af21d5ebc36c687c7d103aaef3e17f33de7d4f080a6f300a3"
+  },
+  {
+    "path": "gradlew.bat",
+    "bytes": 2966,
+    "sha256": "57931b17dd228e5c24dac90e815d0bf82477e831a4618dfab4136f5446b42a9f"
+  },
+  {
+    "path": "lint.xml",
+    "bytes": 326,
+    "sha256": "f000c9299930a480a6dc6a40abe6d89de76c5da552778c44694764852c27d19d"
+  },
+  {
+    "path": "settings.gradle.kts",
+    "bytes": 337,
+    "sha256": "bb8de3d66dd09c8bcb22da2d9dea04639e2791e94551ed909a3dad92c82692b2"
+  },
+  {
+    "path": "app/build.gradle.kts",
+    "bytes": 1938,
+    "sha256": "36aae9f61c8c0450f0a21da08830391f42393e5597738e8f3c02f9786237b137"
+  },
+  {
+    "path": "app/proguard-rules.pro",
+    "bytes": 86,
+    "sha256": "e92ea10f8fe1fba4dc65d05f7b0c8b6bf976ba4d9ea2414e3e83da545cca7d9d"
+  },
+  {
+    "path": "app/src/debug/AndroidManifest.xml",
+    "bytes": 216,
+    "sha256": "abcf29f4203589c92358dcc6440d66b8e0ead3c2fa5436085ebef3a7fea7a7e1"
+  },
+  {
+    "path": "app/src/main/AndroidManifest.xml",
+    "bytes": 1384,
+    "sha256": "d15ae08142c7691874af3b2a2b7156335aca92920e8a9b9514dd9cc7d1190f91"
+  },
+  {
+    "path": "app/src/debug/java/com/jmu/text2scpi/validation/CompetitionServiceValidation.java",
+    "bytes": 6021,
+    "sha256": "675f93397d268b6daf9a268d29fb678f8557f814dde416ee62181ca1e3d6c896"
+  },
+  {
+    "path": "app/src/debug/java/com/jmu/text2scpi/validation/DeviceValidation.java",
+    "bytes": 15141,
+    "sha256": "9d1348b208fa7d3b6f51f39b4bdf9d4eebcc740acda5a2f63d53df9dd1025fc1"
+  },
+  {
+    "path": "app/src/debug/java/com/jmu/text2scpi/validation/OriginalChineseAsr.java",
+    "bytes": 2359,
+    "sha256": "efb9f13e2bfd56f9bf0e11b4e192e0c99e30a14ef1b2729b106b6bdf3ddff012"
+  },
+  {
+    "path": "app/src/debug/java/com/jmu/text2scpi/validation/WakeCaptureValidation.java",
+    "bytes": 4002,
+    "sha256": "6949e95326b44120ac89ad4404d85909bd3633a0ce8f58668da425305e0e6cb2"
+  },
+  {
+    "path": "app/src/debug/java/com/jmu/text2scpi/validation/WakeFlowReplayValidation.java",
+    "bytes": 5432,
+    "sha256": "c1e9f1fff356b90608722ac95c729a4590d8c0954358e3e50c944fe97311463b"
+  },
+  {
+    "path": "app/src/debug/java/com/jmu/text2scpi/validation/WakeReplayValidation.java",
+    "bytes": 4097,
+    "sha256": "6b69034c7c0a348e7af9c9c55340fc062252f6d39204c9410e6164dfb68297a9"
+  },
+  {
+    "path": "app/src/main/assets/licenses/CMUdict-LICENSE.txt",
+    "bytes": 1754,
+    "sha256": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a"
+  },
+  {
+    "path": "app/src/main/assets/licenses/CppJieba-MIT.txt",
+    "bytes": 1066,
+    "sha256": "ba898a14f729ba5e9965da34e3eecd5edd3795f2cc5d7c923b815ba79bb851b0"
+  },
+  {
+    "path": "app/src/main/assets/licenses/MeloTTS-MIT.txt",
+    "bytes": 1053,
+    "sha256": "88a50e5a02bbc2a5c2f084dc19da751aa97b1690f5fda76cd8005c8634d1ca70"
+  },
+  {
+    "path": "app/src/main/assets/licenses/ONNX-Runtime-MIT.txt",
+    "bytes": 1073,
+    "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+  },
+  {
+    "path": "app/src/main/assets/licenses/sherpa-onnx-Apache-2.0.txt",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "app/src/main/assets/rules/config_schema.json",
+    "bytes": 624,
+    "sha256": "65bb70772e9f5b85e697f124dcee20f9ed38dcf08b3ce492f59dc96bee0010be"
+  },
+  {
+    "path": "app/src/main/assets/rules/device_profile.json",
+    "bytes": 1087,
+    "sha256": "2c11a659474a9962aa9a7a775b7ac955ad02ec1c3cc2cf33a8f67b9dda245b83"
+  },
+  {
+    "path": "app/src/main/assets/rules/scpi_aliases.json",
+    "bytes": 15439,
+    "sha256": "d399b684c81259f9fe31e3d98bb105f7179c0bcf227ae11bed470a917b0772e0"
+  },
+  {
+    "path": "app/src/main/assets/rules/scpi_command_catalog.json",
+    "bytes": 1690980,
+    "sha256": "080b7c4cbe28f51a2f5550c0ac59dd3893473c6731b9bf7462db34317a3468f7"
+  },
+  {
+    "path": "app/src/main/assets/rules/scpi_compatibility.json",
+    "bytes": 1768,
+    "sha256": "7ab4965ef984228d06f6853727b3175cb764cf675d9b7f019c27d1e36e332c7c"
+  },
+  {
+    "path": "app/src/main/assets/rules/scpi_constraints.json",
+    "bytes": 956810,
+    "sha256": "0474bafaf63fdc4be72d25f650f807bad4cca8840a04b6a9640ace8da33b4ac0"
+  },
+  {
+    "path": "app/src/main/assets/rules/scpi_output_normalization_rules.json",
+    "bytes": 4593,
+    "sha256": "c7bbe4b828c12b9c970735b61b8a70a3bf5cf25467afd3cc73e48dd37d8db271"
+  },
+  {
+    "path": "app/src/main/assets/rules/scpi_semantic_grammar_policy.json",
+    "bytes": 9182,
+    "sha256": "ec56bb41a6811db14704f60adb8a1263c5bb0fb64eb738cc35d7be13cb3a8dcf"
+  },
+  {
+    "path": "app/src/main/assets/rules/scpi_units.json",
+    "bytes": 1828,
+    "sha256": "efb415352a08cd4f11d39d4567351e7aa1a6ae2ee5a26498580365838b6330ae"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/asr_core.cpp",
+    "bytes": 7902,
+    "sha256": "19017255765f14dbc9e9eeeab11b90ae31becc2cc7867367cb38eedf9df4e607"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/asr_core.h",
+    "bytes": 1332,
+    "sha256": "619db1582c66ce6c3401b00b0b6d84e5489e7bc2c106269fae1d3d919073ca16"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/asr_jni.cpp",
+    "bytes": 2460,
+    "sha256": "81db86e1746dedcc8794a407cf62bbe11bc6f2472e6eccc3b07d11b2bcee86d9"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/asr_probe.cpp",
+    "bytes": 7008,
+    "sha256": "53f47a88c624dade150c686e6cb0b76485b6c3f320ff9b1a12c625e621812fc1"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/CMakeLists.txt",
+    "bytes": 1249,
+    "sha256": "4a25d7f1db38235762513882bbfbe2ae9a486f0efdd53b0c326b97bb978499f5"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/millivolt_candidate.h",
+    "bytes": 3585,
+    "sha256": "5aa91b5b4135f5e2400f0c6e356bc7ac738ba8c089bf00516d76dd233b21a819"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/rknn_api.h",
+    "bytes": 35707,
+    "sha256": "c48e11a6f41b451a5fd1e4ad774ea60252d3d94f78bee9b21ea3d21b21deba9a"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/word_lm.cpp",
+    "bytes": 20922,
+    "sha256": "fe8d4b69adb45dc1648dc83342d0bbac966c4aa0b588197147ee66ed9dbb4e1c"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/word_lm.h",
+    "bytes": 2164,
+    "sha256": "4556ee4ff59b00ee6cd74126e185cde70dff2c98c51c457dc703caf4488461ae"
+  },
+  {
+    "path": "app/src/main/cpp/rkllm13/calling_thread_affinity.h",
+    "bytes": 3568,
+    "sha256": "3f9130ebac893128183a866e98adbb580f7363aa5bbb1f148ad45816a715ccf6"
+  },
+  {
+    "path": "app/src/main/cpp/rkllm13/CMakeLists.txt",
+    "bytes": 1072,
+    "sha256": "2edd3b1750e65b8deb8be844974237b1a3a38163984d20fe88329f4e7cf914c9"
+  },
+  {
+    "path": "app/src/main/cpp/rkllm13/numeric_summary.h",
+    "bytes": 1546,
+    "sha256": "fa76a5fa877470c83bb806107f5b31317a7b039df6bced3e763724599a83f6e1"
+  },
+  {
+    "path": "app/src/main/cpp/rkllm13/prefix_cache_lifecycle.h",
+    "bytes": 637,
+    "sha256": "a9b6af4702cefe82e7c9e8381ab2247ae71ee063d9b9b32d249daef8d5c07865"
+  },
+  {
+    "path": "app/src/main/cpp/rkllm13/prefix_cache_recovery_policy.h",
+    "bytes": 645,
+    "sha256": "3c85820b2ba5e039c8c6e253901a15252bece15b572b5d439e3d4211b7f03bea"
+  },
+  {
+    "path": "app/src/main/cpp/rkllm13/r15_callback_diagnostics.h",
+    "bytes": 3440,
+    "sha256": "3b233e77369d2201be697672ddfcbc556925bbeec5ea457b5a652ee6edf09ad0"
+  },
+  {
+    "path": "app/src/main/cpp/rkllm13/rkllm.h",
+    "bytes": 22925,
+    "sha256": "80596a578f7f8e70df6eda1c2cbead3bfced14623a190258f2bd009a3d1f72cf"
+  },
+  {
+    "path": "app/src/main/cpp/rkllm13/rkllm_bridge.cpp",
+    "bytes": 31559,
+    "sha256": "91ef7cfaa61ec3142cbc2fa32dd20fc2d4f03c99512b2dc303e5cddeba23c355"
+  },
+  {
+    "path": "app/src/main/cpp/rkllm13/rkllm_cpu_allocation.h",
+    "bytes": 149,
+    "sha256": "689cb3e7d7a03ea92a23b026534a13585b9c7b9c7726b24b72bf11a8ca4d741c"
+  },
+  {
+    "path": "app/src/main/cpp/rkllm13/static_prefix_catalog.h",
+    "bytes": 1922,
+    "sha256": "1f722a4c8644e61fbbecd9cc06a5870bb29388e0aa49f97af9f1ba3b533eb580"
+  },
+  {
+    "path": "app/src/main/cpp/rkllm13/verified_clean_reuse_policy.h",
+    "bytes": 794,
+    "sha256": "859d2acfbdb5520f0cb0501d58507b19cdf813e6297bac5dc1919cfec5bf0a20"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/CMakeLists.txt",
+    "bytes": 3962,
+    "sha256": "a2cceec93dabe0397af384eb2628e2dfded651c97042cd49b16fa442c2624b0d"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/CMakeLists.txt",
+    "bytes": 7929,
+    "sha256": "a23f3d790b2e4a31dfcf7f1a759b9377eb5f5caba7b2936c45be5e322a819932"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/cmake/googletest.cmake",
+    "bytes": 2545,
+    "sha256": "0e0e5923bac9cdc649088f39c0d39c1b1531eef0298ca842b370db2d265ee9a3"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/cmake/kissfft.cmake",
+    "bytes": 2377,
+    "sha256": "f6038500a227a48df0e309b9490bd9c8cec8ee376008d7211e3fc96f0c689580"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/cmake/pybind11.cmake",
+    "bytes": 1530,
+    "sha256": "91938f463d8030274c90502710dc4fa71c0272300750143362da8153702c11a0"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/CMakeLists.txt",
+    "bytes": 182,
+    "sha256": "17ee95c2193bb8493d63fe1a2a7984ee76386a35d4ee7c8f269fe368c407f3fb"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/toolchains/arm-linux-gnueabihf.toolchain.cmake",
+    "bytes": 673,
+    "sha256": "827edec7a84a1431c78408698b9012d8979bcd84ead8aab8affaad734a547e19"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/cmake/Modules/FetchContent.cmake",
+    "bytes": 38023,
+    "sha256": "3e2d42a00457a6ec2da59fadb96a0d327167c08a64d583d0db73b076e6f963a5"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/CMakeLists.txt",
+    "bytes": 2357,
+    "sha256": "2fa17ba29aca7f14913e8efd1ab47ed1f43b00742713d57d59e0b5508a54846d"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/feature-fbank.h",
+    "bytes": 4608,
+    "sha256": "4be90549f3df404c71cab527fa9ef7fcc3ec14883c33235dfddde234be36a8ce"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/feature-functions.h",
+    "bytes": 1533,
+    "sha256": "b3730eb6c4134f87a4b237773634cfd57482702114262362acd33656055f310b"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/feature-mfcc.h",
+    "bytes": 5156,
+    "sha256": "960d6223eb103cfb94a8bed9776f02e5b3c556b2205e361ad1cb2a2fae750067"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/feature-raw-audio-samples.h",
+    "bytes": 2297,
+    "sha256": "b4a630af8a5e691ea8a93cc8da76b023328bc527607b9465e53567db9913d2e0"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/feature-window.h",
+    "bytes": 7367,
+    "sha256": "8a181e9111ed9c31b3d2c3fcc14cb52ef106294e0edb78ed69788300c3992a59"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/istft.h",
+    "bytes": 1197,
+    "sha256": "66483ab025c7fb5ed05e57a096a3d6bda6498dd06b83c1fcf78b7040a3ee32e3"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/kaldi-math.h",
+    "bytes": 1342,
+    "sha256": "f4aed12e9e1932b97e47a2b8c33d75b6ab96e31c8d4687ebb61c6ab1783011a8"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/log.h",
+    "bytes": 11282,
+    "sha256": "7c0d903d24a2e82c04082379f6b3c86dcc48898d6cceec94f81597790cb97260"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/mel-computations.h",
+    "bytes": 6581,
+    "sha256": "3a85adb8f7e51598f6f46a0d2b6bdef4c0836efbc925dd0a5e1983598f3f4341"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/online-feature.h",
+    "bytes": 5854,
+    "sha256": "9cc145593df3fa9725cdd8a2860236ce95cbd43624c275195bb15912d642792b"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/rfft.h",
+    "bytes": 1624,
+    "sha256": "ee5d1aa7a992447097843acee74926f5354ac2fb6f441c6e3c15e461dcd0a3f5"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/stft.h",
+    "bytes": 1634,
+    "sha256": "9362df5543257fe11cb0c7187fe0ecabfd57a0084b6e8c8ebec5599f80616977"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/csrc/whisper-feature.h",
+    "bytes": 2064,
+    "sha256": "cefee5c8568de7a0185bdc1117c1ff6f8251bdd48da006391e20ffbfa60b0dc0"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/CMakeLists.txt",
+    "bytes": 47,
+    "sha256": "507515aca359b3b034e4aba3b7e05426d65ba5c8f08346d4c0cac429a1e59106"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/csrc/CMakeLists.txt",
+    "bytes": 1038,
+    "sha256": "ffa081c80514f4be84c4dd2de517649d411b51322e279856e473c098b8703ad9"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/csrc/feature-fbank.h",
+    "bytes": 1024,
+    "sha256": "175b1f388e3e9716fa3c60da7c4f6b21f426e02a6fcf99d6d3a65a72f816c579"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/csrc/feature-mfcc.h",
+    "bytes": 1020,
+    "sha256": "f47cf1fe215912351fe8328e3cadb2e9209d4f40d02af2926096aa5537a2ff94"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/csrc/feature-raw-audio-samples.h",
+    "bytes": 1070,
+    "sha256": "869d2e92415f50700f3dccd846bfc394dca5a70a3b6e3051d8c4a2bf2b78788d"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/csrc/feature-window.h",
+    "bytes": 1028,
+    "sha256": "eff3039eacf2ecf309d103faba1400bbc90bcb8f9f7042c3bb2ed2aad93ea81f"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/csrc/istft.h",
+    "bytes": 982,
+    "sha256": "e24ce0c9dbec949292a6fa553c9850d67762a1dcbe59759457df69c02ee67b4c"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/csrc/kaldi-native-fbank.h",
+    "bytes": 996,
+    "sha256": "2a7963027c1a3046099cde9bf0c3d6ff40ce62136f593f0df148f4473ef6e955"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/csrc/mel-computations.h",
+    "bytes": 1036,
+    "sha256": "9347f40e754cf3948584a599a9bf1b51733fefae0d9ee79ca4900941ed1c7dde"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/csrc/online-feature.h",
+    "bytes": 1028,
+    "sha256": "bbcef5ce5ec00f66485c2e997ef27d9a8e2405d37e7da1c9c093d4691201775e"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/csrc/rfft.h",
+    "bytes": 994,
+    "sha256": "b020870f5b5a3f675b07aa0015baa3a55ad6f4decd28d139cb8e0dbd6a9b7681"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/csrc/stft.h",
+    "bytes": 978,
+    "sha256": "d16905206cc1c170be19bab772e027d7ba405f4291734a61e538656c24a4e217"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/csrc/utils.h",
+    "bytes": 2290,
+    "sha256": "748bda7b61fac8586d509be885ab6cfcb05121fd99f0150fa9cce49c9da38ea9"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/kaldi-native-fbank/kaldi-native-fbank/python/tests/CMakeLists.txt",
+    "bytes": 1086,
+    "sha256": "f798fdc99ec2404c876542e39ec9d0d0158364731c77677e6a74fc4800a7ef83"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/cmake/ios.toolchain.cmake",
+    "bytes": 46672,
+    "sha256": "8eca7e3ae06a96740deb51d7c7e8e43f98f4d0ce43d3df5319d4851a373aa6f2"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/bpe_model.h",
+    "bytes": 1748,
+    "sha256": "5d2ffbe40206165450ba76b2c9684b2256d2845c543b67ac8db69708e0685288"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/bpe_model_trainer.h",
+    "bytes": 4616,
+    "sha256": "fb50025a0581ae248d2bc5f828ae768a2d51214ef866b5ff520caccf1f0f122e"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/builder.h",
+    "bytes": 5734,
+    "sha256": "e31bf7b121a0ac51b9d6e1be4930d0eb0a45cd84bb0cb06c0d2a02588131aaf2"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/char_model.h",
+    "bytes": 1061,
+    "sha256": "a55b9fc4831671d5421b938ed120c8574331a22026f818fb1f14a2e3eba53297"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/char_model_trainer.h",
+    "bytes": 1265,
+    "sha256": "ee11d94b62278de5b4b16c85e7e87fe9674a64a266e1959eab752146f2a9ac9e"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/CMakeLists.txt",
+    "bytes": 12748,
+    "sha256": "efd948193da2be01f884b8fa7b6272e7417f798ffb99065770d44af7870883e5"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/common.h",
+    "bytes": 4838,
+    "sha256": "cf094a7bfb7d15992d6880f2984361fde83b3e7f0ffa2cf4b034fd2a8c671065"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/filesystem.h",
+    "bytes": 1852,
+    "sha256": "6e3db708ca1d2012af5e8d6e18f7173908e37d722cd72ff5069bfca8d68c0a7c"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/freelist.h",
+    "bytes": 2605,
+    "sha256": "5d8fa6f83026270871763d7e375bb2ec85583f63bf66dd53a34d7833f941bdcb"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/init.h",
+    "bytes": 1856,
+    "sha256": "d4b723329c33d0b0fde0fad0b651cc19e13f46ce8b0841c56c8324c78b91c439"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/model_factory.h",
+    "bytes": 972,
+    "sha256": "ffbc8062c813ffd83337d762a3e0afda76a2636a7eddf5b007e0cd48daf2fef6"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/model_interface.h",
+    "bytes": 8751,
+    "sha256": "53d21f75ffb8fabaec61125c0dcb52aeedd710b9c7176525f05909be68f2058b"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/normalization_rule.h",
+    "bytes": 7274179,
+    "sha256": "c91dd05d22c6e30eefb91691f05292fb039b4e606a7132555adfba6cbaa94ba6"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/normalizer.h",
+    "bytes": 5813,
+    "sha256": "62132ec3822b6022acbcee2f2be899941169f49777324bb62872f31cf7dcc785"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/pretokenizer_for_training.h",
+    "bytes": 2152,
+    "sha256": "bbf450e504f1d8ae84442b0f548ea128c82d0615484c6cc07ba627d1903457c4"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/sentencepiece_processor.h",
+    "bytes": 28388,
+    "sha256": "3952c162554c82b55892208d4a18209d53f0a95c8ec8722c64a955df3abfccc5"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/sentencepiece_trainer.h",
+    "bytes": 8559,
+    "sha256": "31d63076433694f3bfc0d60d702809e742bc6ab59e93593ec32fa5d76f132d68"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/spec_parser.h",
+    "bytes": 11012,
+    "sha256": "ca0bc6f8fcd6f7a49163492cbf9eae76aa91c28bcce941b5f5deea771aef8cb4"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/testharness.h",
+    "bytes": 8910,
+    "sha256": "d6443a6822fca7697053a52f1ecd262406ba44e54142566739264259fe80a9cd"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/trainer_factory.h",
+    "bytes": 1104,
+    "sha256": "18a5037c8d22cb99f17c5d59125cacb5621c0188b57e6d896e757b8ebb6571ad"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/trainer_interface.h",
+    "bytes": 5731,
+    "sha256": "0d4a1d79f6f9b56a67be9cdf84b4d35279b8cf54f2d0d84f8f90d56389ba87f2"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/unicode_script.h",
+    "bytes": 2817,
+    "sha256": "dc4c23e7427251b2e15bcacf4f7771426213c31d8af8bdde9eb5ff973380f4f1"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/unicode_script_map.h",
+    "bytes": 106446,
+    "sha256": "6667d21fc1a1f7f34dff853e8be625db9f9b7aa47d07ada195a9cc2f232eccfd"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/unigram_model.h",
+    "bytes": 7330,
+    "sha256": "bba14f0a7cafc9fef093a154521623dcb8748ced13032efe6cd3b42d9ed2871f"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/unigram_model_trainer.h",
+    "bytes": 3945,
+    "sha256": "e58d34f3177fdfe6e4a37f480060ee1541a466fb5094e3a9aeb9bea4f9d5594d"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/util.h",
+    "bytes": 11601,
+    "sha256": "509ef93887ee9f90e0030f1556e542ee7b063de92c28b4fa93bf4d0ad588f9d2"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/word_model.h",
+    "bytes": 1045,
+    "sha256": "3f5432809fa3ed08b086efa806b1c4554a6493d6b0402bb412a4dda10fa9f04f"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/word_model_trainer.h",
+    "bytes": 1372,
+    "sha256": "3592e3517fdc465bef5b9bd6439357d858c1830cfec1f155fd476cdc41ebe84c"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/CMakeLists.txt",
+    "bytes": 69,
+    "sha256": "e01b3629f34350eca4898393fb07f01002031899f6e4e318dba8b75d8801808a"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/builtin_pb/sentencepiece.pb.h",
+    "bytes": 40648,
+    "sha256": "995dfb472bf97507907a634e433c75f1563dca7697843c49e06e7821e9812b1c"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/src/builtin_pb/sentencepiece_model.pb.h",
+    "bytes": 204921,
+    "sha256": "6ba92d518159e4b01b832af333410a0c0f3f40e0a2f1319c90faac3a332fefb2"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/LICENSE",
+    "bytes": 11365,
+    "sha256": "d3e2f59e1d71176dfdb555ece6a41f7a5aa0f52ff21211010ace314f57695f6b"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/darts_clone/darts.h",
+    "bytes": 51750,
+    "sha256": "e4a6ab3365e7bed89a84a620a2a18265e3a7f8f58e05eed6ddb545cea42ffd31"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/darts_clone/LICENSE",
+    "bytes": 1481,
+    "sha256": "155f59997298ee336602c49f9c1110f268ac394ca2197eb02647a3555935ad52"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/esaxx/LICENSE",
+    "bytes": 1112,
+    "sha256": "7c28553d1d3312d65fe309f76a22ebaf33a3d76c8c1e3b98a88ee4654ecb53db"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/LICENSE",
+    "bytes": 1732,
+    "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/container/btree_set.h",
+    "bytes": 890,
+    "sha256": "9d05a0707cfa65677e9b401eb9dbc663af505a0e4ea46019cd63ebe0e869e350"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/container/flat_hash_map.h",
+    "bytes": 1001,
+    "sha256": "535e7cd5232577c630a9520fe31e43e1fe6786656989b695fd6d2b4361fd869c"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/container/flat_hash_set.h",
+    "bytes": 966,
+    "sha256": "6114bd78cc5a995047f46e1ddd279baf88950e1c3c946fb13c44a82a5e3f5c05"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/flags/flag.h",
+    "bytes": 1745,
+    "sha256": "62cf7e234cd2f2123b062a0074448976c20c850de9994d0127e0a181def84623"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/flags/parse.h",
+    "bytes": 799,
+    "sha256": "9c10f0bffc23ca9be4f3c4b60a892837b790a349c88113806a6b476e34a358d5"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/flags/usage.h",
+    "bytes": 864,
+    "sha256": "a47c0e5ce199bbba711b9c385abbcf79bc7259b5c9c075773f610d5ddff874ea"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/strings/ascii.h",
+    "bytes": 1309,
+    "sha256": "cedde503c80c559a139a13d2826cacc472080d715316f96a2ddd3d6dd33f99fd"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/strings/match.h",
+    "bytes": 1308,
+    "sha256": "dd67f4cb16feecd57c786ddaeb2b4ab88de0fc9c492580cf35f9e4d2f8ac0eaf"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/strings/numbers.h",
+    "bytes": 1012,
+    "sha256": "90abd903b929294e58d54ddc6cf7f341393464140a18623b1c3751dd4c651400"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/strings/string_view.h",
+    "bytes": 2106,
+    "sha256": "525385b22d34d5e7c73e699b7b6818e1fb80fe4152fdc187696b546c0dbf3afd"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/strings/strip.h",
+    "bytes": 991,
+    "sha256": "0dd3e7eb24589afdb408d7d92feb8d61bdd54145f5a481fa67aa6a8abd526d53"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/strings/str_cat.h",
+    "bytes": 1447,
+    "sha256": "4a4f42b9467991b56c33e97a5ddaef7182906900fde4cba0c2cf667a9465a01c"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/strings/str_format.h",
+    "bytes": 1088,
+    "sha256": "19fb616839a0cd978073612dea4e40738cbb46abc3bd5b82f0e6dc9ffac2a0f4"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/strings/str_join.h",
+    "bytes": 2413,
+    "sha256": "c4a3c47d5214822fde2565b22cdd8afcac4603887b73d4c9767ecc69c97970f1"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/strings/str_replace.h",
+    "bytes": 2127,
+    "sha256": "f23868a10be222bc4a2883a4fa9fa18acda792b829f76a95fe38150abb2fa24c"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/absl/strings/str_split.h",
+    "bytes": 2669,
+    "sha256": "756caa4750be8786d1dca37d2c964f3c5e61b751a1b5dd4ec6e49da68a9bb398"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/any.h",
+    "bytes": 6215,
+    "sha256": "ea3cf2a610cef3cd19094310906da4531f74e29565de02ea5da768cf9a66df39"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/arena.h",
+    "bytes": 29756,
+    "sha256": "04577ed1f87b28ef219109b741aa065e6a5f6f6d13a3a84c3b8f15a62b5628a8"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/arenastring.h",
+    "bytes": 15918,
+    "sha256": "33305c9813fce5a4e2260db5d840cccd724c28f02b3c74e1e82ecd006a57539b"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/arena_impl.h",
+    "bytes": 18092,
+    "sha256": "51bb0fd1280f0b8b38e8efefd1f7e99adb6a36001516f29f19b3ec8ebe6abdfc"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/descriptor.h",
+    "bytes": 96637,
+    "sha256": "9f1f1b07dd77b9e87c85ad898b7ff7f31e6f1ecfc4fd62e8fd74298dfd5b1071"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/extension_set.h",
+    "bytes": 78585,
+    "sha256": "d0d335cc9c8e7bd2a888df8aba51f20910599a431d2c7db43e924711ed7c9787"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/extension_set_inl.h",
+    "bytes": 12437,
+    "sha256": "8caed9435f8534795c1ad4b386beab82bef3c164397e2157687931d4e9bbf217"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/generated_enum_reflection.h",
+    "bytes": 3993,
+    "sha256": "6de6743eaecdb8ecfaaa9c8104bd4b4d6d5f60cebf509a4a01d0d04dc42324e9"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/generated_enum_util.h",
+    "bytes": 3266,
+    "sha256": "17d3c95b66c1877a5f0b57ea9237b801d688f12d1aa12df0ac31ccd1dc511916"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/generated_message_table_driven.h",
+    "bytes": 12532,
+    "sha256": "49a128c462c705dbdecfc63c582afe20fd011f40ebb3e3b80865e426787febab"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/generated_message_table_driven_lite.h",
+    "bytes": 31313,
+    "sha256": "eb5b515403d636e10677d85172df63ed2b4fa5101f68b6773a5c001f58b29820"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/generated_message_util.h",
+    "bytes": 10023,
+    "sha256": "09bcb3f6b5e69dbb023535316bb04695e0e4db6e7f7ca0095efcc6fcd97eac88"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/has_bits.h",
+    "bytes": 3542,
+    "sha256": "11caa234b94e0b193a792dbf1bff4f35ad61f8d03b55255b819461bdde0dde84"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/implicit_weak_message.h",
+    "bytes": 7024,
+    "sha256": "3247085cd9a032e441f4c1eeecf12460d3596dd353fd0a26970e62d7e579c4f2"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/map.h",
+    "bytes": 48107,
+    "sha256": "26338a8372fe72a569451e50aea5da7237fd961c52e18deee8f6bbd0ffc40745"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/map_entry_lite.h",
+    "bytes": 24921,
+    "sha256": "000b8da95d4adb476233eb52a7a70043378393529d0cf5711e619bffe44dbc47"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/map_field_lite.h",
+    "bytes": 7104,
+    "sha256": "8bb7d7ddbcd4efdc244e24adb17e1fdf3d16c937abd952ee54c486db8a54487e"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/map_type_handler.h",
+    "bytes": 31973,
+    "sha256": "c9f8ba70134f6ad52977fc3fac7212a3369828ca3059706d445fe13923453214"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/message_lite.h",
+    "bytes": 27172,
+    "sha256": "678f09a32bce0254ae9967b4f5a391ea346e722bf9fa1f34b43ab7562cb57306"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/metadata_lite.h",
+    "bytes": 8270,
+    "sha256": "49e3615f4bf903eb340adc79c783f634fd63a3e582ed6934016e24be58cc2553"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/parse_context.h",
+    "bytes": 32754,
+    "sha256": "ce6a84b8e873e9404c2ac904bb9208e6b6e7b2b8fa184cb676237339afbcb9e0"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/port.h",
+    "bytes": 2050,
+    "sha256": "8a8fae6122586b7e2d8533af0ed4cde4cd9805a95b1ece4b6cebdf622a10616f"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/repeated_field.h",
+    "bytes": 101600,
+    "sha256": "7c46dac1b7f0291ba4e3ec0dca88ce6f706a581ce1602ccb37088ba7b1661085"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/unknown_field_set.h",
+    "bytes": 14401,
+    "sha256": "d631e448d516993a09d6501693fc839a7f0c0094409b747620686a4757e62572"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/wire_format_lite.h",
+    "bytes": 83648,
+    "sha256": "f916f7382e7e1f9dde122b2e968ae8697be4ff4beed1739fded6d04f8b971ad3"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/io/coded_stream.h",
+    "bytes": 69376,
+    "sha256": "ba24afbfada2af4dd2afce216d7e7c95feb295cf22a46884b261e46ae1a19b55"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/io/io_win32.h",
+    "bytes": 5384,
+    "sha256": "2d317861a67b66c54dc2b2f5fe09b9749003fff4efef9dc9c715fe5e2c17aa1a"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/io/zero_copy_stream.h",
+    "bytes": 10258,
+    "sha256": "bcb776496bddf6f268f1922492def377e6ff5ca8332006bc5d87d83a46ae1254"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/io/zero_copy_stream_impl.h",
+    "bytes": 12750,
+    "sha256": "a2576d20dd7e6e250be65c46f58c236a5b77623a1587ab37abb480c015683600"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/io/zero_copy_stream_impl_lite.h",
+    "bytes": 16950,
+    "sha256": "4464de3b8928e60d01f7ce129a42e757cc554f633b9969eda5b30a915101917e"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/bytestream.h",
+    "bytes": 11769,
+    "sha256": "acaf1446755d43e3fc1130f8f3d60e733818dda780123747e63561dde3ee181a"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/callback.h",
+    "bytes": 17098,
+    "sha256": "6b345622449e3247cbe5c751ad11758642109c30207aa9ee667dde1a97bd041f"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/casts.h",
+    "bytes": 5733,
+    "sha256": "15ce9542bf149fa74f3120296561e4f245d8cdb2ea1561859c94c8fbc61e049b"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/common.h",
+    "bytes": 7283,
+    "sha256": "714116c6d284bf882ed5f2a1072c5e2a00c09b559bd622acbcb1122e693c7684"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/hash.h",
+    "bytes": 3911,
+    "sha256": "3c8d7decf9f16be177ba3f744d874493afa9ca29901eab9f054b1b40446a6fcc"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/int128.h",
+    "bytes": 11971,
+    "sha256": "5e9e641f219305a65fa8401c880632e83888deb438427e99b138810a902ed1d0"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/logging.h",
+    "bytes": 8915,
+    "sha256": "0ed8bcc7e873f3035e649a5b6427620faa0a17ec0c40a912946f7adc0c2f83e8"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/macros.h",
+    "bytes": 4903,
+    "sha256": "e7ebe5136283c345d6d9932f4c748615d9e9b7263553f21e14432b3470adcc23"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/map_util.h",
+    "bytes": 31213,
+    "sha256": "27c58f8e6713a9014775dffde0838e4fa6a39ef7db1a49ddeb83181d02efc208"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/mutex.h",
+    "bytes": 6157,
+    "sha256": "7b0f04ba3375e5c89e83e861eebe79eee005e145d122c79ff57c4014ff4312ce"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/once.h",
+    "bytes": 2184,
+    "sha256": "845dba208aeb44fd0bf6e1fe4109b35d066190d0566439cfa686775a9e0c9a04"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/platform_macros.h",
+    "bytes": 5108,
+    "sha256": "a7ba8800880ce7e2e2e60be66801529745304c76fc55f64395c1f1d86cf85cd8"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/port.h",
+    "bytes": 12765,
+    "sha256": "6350c2d64c8a0307f449d9c901223e15e2ae2fe483705b87ab37df9f6a975eb1"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/status.h",
+    "bytes": 3949,
+    "sha256": "855ffdf5b9e1e97b920d46ba3f4262789e50e9a983305e0790ac0b591131bd1a"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/statusor.h",
+    "bytes": 8558,
+    "sha256": "64da5e8b887f1e91d788d63ffd668c175573dde8a19d727e851fbc11c5eae9b8"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/stl_util.h",
+    "bytes": 3293,
+    "sha256": "bc9e7d8ba4ac436a4f04105f7bed07386bb570c06c2340a6f9cca655ad6cd813"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/stringpiece.h",
+    "bytes": 17861,
+    "sha256": "659dc9e183a39f8d3f89808455b828525576f3ba0f53ce9856846e9b2ade7e78"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/stringprintf.h",
+    "bytes": 3615,
+    "sha256": "6a924a8350176621066d819501a8e809544ca739d3ffe842c447d6bb11e25aff"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/strutil.h",
+    "bytes": 39629,
+    "sha256": "3a831f0ae9beaa2bd8d89415ecb23836bcd32aa5e81736f268fde93453c5b569"
+  },
+  {
+    "path": "app/src/main/cpp/english_step1519/vendor/sentencepiece/third_party/protobuf-lite/google/protobuf/stubs/time.h",
+    "bytes": 3356,
+    "sha256": "878bf05f87b449d5b6e5f3377acb5962ee5950922c8b0e2c29845d83a0282661"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/intent/AssetInstaller.java",
+    "bytes": 5329,
+    "sha256": "c4669b2bcc69459b8b5583dba3cfbeb6fa51224de5d1af82f0462881675e1143"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/intent/CommandRule.java",
+    "bytes": 1623,
+    "sha256": "bdec16191d302a6e848720fc1841779d01e6052776d0b1b689d2181d36166a5f"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/intent/IntentEngine.java",
+    "bytes": 275,
+    "sha256": "efdec69cce919f20606e00232d299e41e6f1e1cecda64485f3fda130b613c418"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/intent/IntentEngineException.java",
+    "bytes": 418,
+    "sha256": "1d080512efd9fdc1c3f81c15bd602e27fb90ce556973e3a20a4f43b4b38d7b46"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/intent/IntentPipeline.java",
+    "bytes": 1236,
+    "sha256": "3b8201214cf60644df14547af6705c5f42b3c0e843a46a4e917b616a848aa4dc"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/intent/PromptBuilder.java",
+    "bytes": 830,
+    "sha256": "b96c9c352941460e101f4e015e51590dad0bf07dfac0e6435809a1026fd8b103"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/intent/RkllmIntentEngine.java",
+    "bytes": 1185,
+    "sha256": "a87cc73b70092ddcd7bb7c402a39b6c094001e99f0b2e12607f6734f2c923f41"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/intent/RuleAssets.java",
+    "bytes": 8527,
+    "sha256": "8b787f533dbdcc9eeef2137a89027ec04f94189b7317cd55d71ca58fb8618bd1"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/intent/RuleDecision.java",
+    "bytes": 1092,
+    "sha256": "a55b6374003658d819aa4570e1eb19b77ed1d529c6cf9e8effd8b2b87cd6e355"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/intent/ScpiMapper.java",
+    "bytes": 9543,
+    "sha256": "af41ba7746542d068eb7cdb377abec6ecc650b51cdbb31daa07128bb3d7da8c2"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/intent/StrictModelParser.java",
+    "bytes": 3011,
+    "sha256": "184d519158ba9c7ded4a8f79e8130c536b257341225c63313f8b7360ffd77bc9"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/ConnectionInfo.java",
+    "bytes": 1241,
+    "sha256": "d0d5d5615b2ca771b9059be35e2bcff8cd84265c465712e08a4dd703be6314a1"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/ControlUiState.java",
+    "bytes": 9038,
+    "sha256": "714d263e2aa23bb51d316ce95fe752d6bd999e2a55d2b18b04734549eed96037"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/DeliveryState.java",
+    "bytes": 275,
+    "sha256": "9b9e892959f699c848e54ae4f457695e5224756b48627784cf963554ac97bae5"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/IntentStatus.java",
+    "bytes": 231,
+    "sha256": "df0ada72d4b84b977b43c7003db51c3a1aacd311e4e9191537f6cac6c0d79a03"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/LogEntry.java",
+    "bytes": 973,
+    "sha256": "5923278c5fbd22cd285bf28fc469f7a0aa7fb321c095619297b5fdd32ca63a7f"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/ModelIntent.java",
+    "bytes": 877,
+    "sha256": "bbaad35d422ef95b36a87cb8304466ee8d8606ee57cbb585f6a02182889f9ea1"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/ModelState.java",
+    "bytes": 233,
+    "sha256": "de519b8b295bb3131e7388f7f78eceb3402fc451b8210c02cfac691c5b614fac"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/PipelineResult.java",
+    "bytes": 2463,
+    "sha256": "2287aca4682bfc5f6834b6a4d08e04b2b15b05d18af3ff67209edb01b8af5c28"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/RuleDisposition.java",
+    "bytes": 652,
+    "sha256": "31b09c2b8cc28e7070ad1d76a97aa295f0833d9a177114c92a4d9ee90c5bbea9"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/ServiceState.java",
+    "bytes": 194,
+    "sha256": "0582cbb893bd55c087831bbd253e44d10ed3e91c7d6da722a484af0395d4c8ae"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/StateStore.java",
+    "bytes": 1373,
+    "sha256": "9c17e1d5e732673baed629e3d321b54bc0da6d6981333dd6317d3220cc830491"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/TcpState.java",
+    "bytes": 185,
+    "sha256": "a3aec9b929b44e83fe65fdf44a006fc1603e3cffaf93a56aafaca88ba87940c3"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/TransactionResult.java",
+    "bytes": 1799,
+    "sha256": "48a84f2f5711692870be33705c9a5f881cffe71e2f465fc1f3114aa4aa3e3dad"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/model/TransportStatus.java",
+    "bytes": 260,
+    "sha256": "4db1bec5351dafd49c60320f0d536022ce26f3fb1a54f178197fbc4de8ec4cfe"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/resources/ResourceStore.java",
+    "bytes": 11300,
+    "sha256": "22302269ef49c825bc7fc1a15de94576c51dbc9e893167b3cad98f6fe08f94b8"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/scpi/ReadbackVerifier.java",
+    "bytes": 1329,
+    "sha256": "ba55d2e9268eab0bae12835ade01eb616fb6dbfde1d3db4e55ccc6aea0a4aa3e"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/scpi/ScpiClientException.java",
+    "bytes": 701,
+    "sha256": "7d84b48100d9dfe885772da95e50abf5d9b60d8f4cd56b3682250ace5f875a57"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/scpi/ScpiConnectionConfig.java",
+    "bytes": 729,
+    "sha256": "bc0ebb4636283ca46f14ab7ee252815758825380c0e76986f3220b60bb4f4ad8"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/scpi/ScpiDisconnectedException.java",
+    "bytes": 649,
+    "sha256": "087878a381ef822b08263388689e10f7baaa4a6b714030842eb6de47ca4c2a5d"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/scpi/ScpiProtocolException.java",
+    "bytes": 476,
+    "sha256": "b39a7214316602ec7902ec92e1ddf7b57720c576f3fe7616c2cc00fd698c0cce"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/scpi/ScpiTcpClient.java",
+    "bytes": 14519,
+    "sha256": "1143bb4d28500bef217fc44f7890bdfbb7f1d36dd1d7a5a8d5df9e0bf86ced10"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/scpi/ScpiTimeoutException.java",
+    "bytes": 635,
+    "sha256": "94a044d4879142fe0d80794700109c62972b0c41b59448e78958da57cd711dc9"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/scpi/TcpTransactionEvent.java",
+    "bytes": 527,
+    "sha256": "da579b8f9e15db271bff991b54a8d63ec37140238fdb7f82a354a3b311e4b787"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/scpi/TcpTransactionStage.java",
+    "bytes": 267,
+    "sha256": "73bb6ee6585d31f9c7bf23499c76a251bb556a9ac8f865d3122e612480cc146d"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/scpi/TransactionObserver.java",
+    "bytes": 254,
+    "sha256": "4de6f2ed3c45b6e55d42a88be15acae6ae789bef497dffef98ad65cba8315f0b"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/service/OscilloscopeControlService.java",
+    "bytes": 37768,
+    "sha256": "127d9057a5d150fdb4e97c00df233220750d5fddeb368fdf0ee2de65762ab4cb"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/service/OverlayController.java",
+    "bytes": 7946,
+    "sha256": "911fa492d6ef27a82ece21f1d8a1ecb32bc50b5f4e6e14a87453989f7fde2941"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/service/OverlayEpoch.java",
+    "bytes": 658,
+    "sha256": "0f812a343e6e8ac5720f7bfb0b96280d647022563adbfcd69a26212538c299ca"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/tts/FeedbackController.java",
+    "bytes": 12446,
+    "sha256": "2be807429a39acfc79a2e1f9446a4b36179dcfd5de2b5bc5bd1f0ab65fc1917b"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/tts/FeedbackLanguage.java",
+    "bytes": 1021,
+    "sha256": "710642ca5370e7a7b0aef2703dd7e03e5e9cd10f4b8624770761d343f88862d9"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/tts/FeedbackText.java",
+    "bytes": 6961,
+    "sha256": "f5fa0c7c96cbd9867eb4b66b7869f76256eb18a3482f2ab797d7be13279aba4a"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/tts/FeedbackTickets.java",
+    "bytes": 819,
+    "sha256": "ee4ea60198bb01641c878e8b4a2b26a4c52f45c959bf8ca7627bc8cdded1f2cf"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/tts/PcmCache.java",
+    "bytes": 4749,
+    "sha256": "2bc6f40eddb782cb59a38faf86e684d64fd4d03096b185c331fafdf13148aac1"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/tts/SpeechNumbers.java",
+    "bytes": 6184,
+    "sha256": "18c92839d6fd379593ddde6e4338e11140b2f9ce6e9302775e9dcc10c1168377"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/tts/TtsEngine.java",
+    "bytes": 3996,
+    "sha256": "4558510826f6b614a5524f5d63df0359daa6435dc37d10dc7c554eeebf3a4251"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/ui/AssistantPanel.java",
+    "bytes": 16042,
+    "sha256": "bd66ac6b10122e2c80fb16a6ee309cceaf281cd2c7658cd392d8a1cc6cadb21e"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/ui/ImmersiveMode.java",
+    "bytes": 503,
+    "sha256": "eae6c6e49c2edd6e5c161cc562cf1c373df209bc381ec1ccc14c851286dd2a8a"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/ui/MainActivity.java",
+    "bytes": 5675,
+    "sha256": "7e6573533a43651b657a871b18f53eb3cc04f445682a457b0d3b2c585ac9a9a5"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/ui/UiText.java",
+    "bytes": 10656,
+    "sha256": "f1fd97a2c9ae56fd17d7346070a85dfe88a31429c2f4f8ff511265f2228cf857"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/ui/VoiceOrb.java",
+    "bytes": 1548,
+    "sha256": "38b7863baa0e13caa57bffc28e801fd4308ae6453cae32e33a980cf5969bd2b0"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/AudioResampler.java",
+    "bytes": 1495,
+    "sha256": "547185a71c99c2fbf7079050710608540daa78cd952988445f4e0f99865ca903"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/ChineseFourGram.java",
+    "bytes": 7220,
+    "sha256": "dd2310de2af91f0617ea39119340a7b0f6cb0d9d4798a17a18df39e8eec0681e"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/CommandInput.java",
+    "bytes": 4092,
+    "sha256": "c582a43d7a9e8ba3f69ccbc47e657e11f6cd057847750f02e0654611ea5cda15"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/DiagnosticJournal.java",
+    "bytes": 1772,
+    "sha256": "024cffdb9a4ef07a77b0e96d728416eb8911b41b503f8305aa58308dc604cef3"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/EnglishAsrSelection.java",
+    "bytes": 2906,
+    "sha256": "b3aee8897b93fb876808fe82fbc0468ee51c88e723082e3f1204fc56d42eecb8"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/ListeningPolicy.java",
+    "bytes": 523,
+    "sha256": "03d1f982e7a957e63375a45e7d3a059cb172a1511ee54b8c982bf4ea03eb79ff"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/NativeAsr.java",
+    "bytes": 510,
+    "sha256": "06a21d2b769930c5ead4fb7171bb8a79cee858ff5c2284da246e3eef7e3d8b6e"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/NpuScheduler.java",
+    "bytes": 1112,
+    "sha256": "ce8940aa1dd473bfb6290156ee6866e1939c45a3d0af0ff7704b4f8ad3c80ae5"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/PlaybackInputGate.java",
+    "bytes": 841,
+    "sha256": "a8b723a3b62f72686c6f51f0bbe4839f51765273b6fef9cd5789058f51e26929"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/ScopeLanguage.java",
+    "bytes": 758,
+    "sha256": "90015e7d10d8ee78aa17f5aea3b314a047f597970fbdfb231cfd5f7bde7345ae"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/SendDecision.java",
+    "bytes": 207,
+    "sha256": "c8b262af5c58f253b781f1e9aaf68958887bdbd7368f47e8185e0e34a34d0f17"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/SendPolicy.java",
+    "bytes": 564,
+    "sha256": "3d81171838b6288f2ceab4d2f5d0ebd22994794e0646790161d40bb3be1e204e"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/SpeechRuntime.java",
+    "bytes": 18299,
+    "sha256": "cecef0c1f632c9b644f47a3ddb1a4e03608c586cfd86a68f9cfbee86b9b382ed"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/SpeechText.java",
+    "bytes": 5382,
+    "sha256": "e6d3184c6b0103f4d168a906f4dc7f3a2d3a783f6e718c8525a70c51ebc63764"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/SpeechTextResult.java",
+    "bytes": 1308,
+    "sha256": "04889a0a3600de6505f3bb3019808a501ee9eb42d3083ce82b4caeea5995c44d"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/SpokenNumbers.java",
+    "bytes": 2616,
+    "sha256": "0458d0994eb449562bd68e22bc363d2c7bbda2f040ac71beeeac4193830b357a"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/SpokenUnits.java",
+    "bytes": 1359,
+    "sha256": "46cc44f980e44969275db2043b751a64bb2c5f149ba9fd1ca2281591c6be83d9"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/VoiceController.java",
+    "bytes": 16366,
+    "sha256": "8d0a31f91753f3d880a3d4bc66544768c15095855c4b215f145a98da4bcd673d"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/VoiceEvent.java",
+    "bytes": 814,
+    "sha256": "4147a30f4ce573edbfe54c1dfe8d0a810ccfb42aef64d0a8a859737fef71244d"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/VoiceIntentGuard.java",
+    "bytes": 2895,
+    "sha256": "acafcd7c7780f6ea2778c90632f62110ed98a51b945caa4dc0ff4a2f3be68a21"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/VoiceTurnFlow.java",
+    "bytes": 1292,
+    "sha256": "17d9d2ef351e72351f22baffbdd1e5ec1e671049eefb0829c43119783a9c3d33"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/WakeInputLevel.java",
+    "bytes": 653,
+    "sha256": "6b9df39eebe555e6af263582e897b514efb3495a7570e6e5610b37ed44cb6090"
+  },
+  {
+    "path": "app/src/main/java/com/jmu/text2scpi/voice/WakePronunciation.java",
+    "bytes": 760,
+    "sha256": "60da144067ee1b8cf25dd488f206b54964e57e73661b257da473a6e5d9265ecc"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/AuthoritativeTemplateResolver.java",
+    "bytes": 5496,
+    "sha256": "ff5a0fa3ea9db4919ebd8150be01f39431f57bb2fb5cd31c1a9b7df7d3b97cb9"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/BilingualModelManifest.java",
+    "bytes": 8242,
+    "sha256": "48253243a3dda16f6dd48934fa2d893e300110ba17ad9cbc24a80d03a0c58220"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/BilingualTextPipeline.java",
+    "bytes": 35520,
+    "sha256": "f533bed8e02edbc735f5cb29df7397d6bdafaa69df2e729beead122ec5000846"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ChannelDisplayStateEvidence.java",
+    "bytes": 2961,
+    "sha256": "eee1ddbc36eb94429a9d1c2f7c9d2f351dd4d04f18929f423b94853d2959c720"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ChineseNaturalCommandParser.java",
+    "bytes": 31911,
+    "sha256": "f80fc337738bbe5beaff9d8b465831c1fbdb2f229aece49a4ee1a2f7b6df21e2"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ChineseNumericNormalizer.java",
+    "bytes": 18751,
+    "sha256": "c8d8c90a65770a26f1a946c20da1adbb1115afc3e01cf7629d3826b3c9360bb8"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ChineseOrderedPlanBridge.java",
+    "bytes": 5746,
+    "sha256": "4782bde81de87a1f7718f1a6630d6329ca63cfc5ec54a04d47feec6bcb92dcae"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/CompactSemanticProtocol.java",
+    "bytes": 1126,
+    "sha256": "31f5289f29b691ad3e2eb459eb4d92b8eb80f8d4c6176a04e6708dffb928653e"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/EnglishAutosetPrompt.java",
+    "bytes": 1831,
+    "sha256": "b287786b378f81d8c2bd2c9a12452cbed349ecfd848c9db94b1f6370dd3b1773"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/EnglishChannelEvidence.java",
+    "bytes": 1807,
+    "sha256": "bac2ddfa1479fc90407d99d94e28ae12cbe834712cae7f92cd99a3b55f9e16d6"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/EnglishCorrectionScope.java",
+    "bytes": 8205,
+    "sha256": "693126f6dbb6f4d4d1448ad54b8222d670cd677836f09e181673cc2e679661d2"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/EnglishDerivedPlanBridge.java",
+    "bytes": 25021,
+    "sha256": "649f668b46e87db525ea7529a4e58db81206bdd3a9b6faf483a059a272842fc5"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/EnglishNumberWords.java",
+    "bytes": 8520,
+    "sha256": "acba1cb3ac265b6923f6981f154b57100b343ca438c2c4f28cefc8198361a4a3"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/EnglishRequestCompiler.java",
+    "bytes": 63765,
+    "sha256": "c62e8f354725efaf265a0edd9c4cef31e09a491b49d4a934b1767e6e7dc3fc8a"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/EnglishSemanticBridge.java",
+    "bytes": 53168,
+    "sha256": "6bf2e5ebcb3d0ab2aeed5a469e0f6508ca3bc010a10b1c419473b215804cac86"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/EnglishSingleOperationScope.java",
+    "bytes": 18654,
+    "sha256": "2f34d7275f7a9499840d4068add8ad48212744cede02c4ce92cb1ae6fa3f6b28"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ExistingMeasurementRequest.java",
+    "bytes": 19231,
+    "sha256": "3ab3d6a38b7c8c58e8c6801e036645641dc1049aff85be87a6bd32725ca43300"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ExplicitStepModelGuidance.java",
+    "bytes": 2493,
+    "sha256": "c775a3d8b3635535b52b56642d96976ad32529fac1fb966912b66cfa2c045a04"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ExplicitTableFastPath.java",
+    "bytes": 1008,
+    "sha256": "e4cdd10cc335804320c25c6970515672f6089ae0fe2434fb8d75dc3f0b69d59a"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/GeneratedTextEvidence.java",
+    "bytes": 2011,
+    "sha256": "e44ee4e8fe9bc2927c733f984ea8655850bbc6049b030cab40e8dbc1584b1e1e"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/Hashing.java",
+    "bytes": 1065,
+    "sha256": "0f1ba09077e312cbf7d7085b1ac0a9f18dcca8e0b910360ef8b2fcd61294e321"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/JsonObjectFramer.java",
+    "bytes": 1368,
+    "sha256": "4d4afc22ef8164e00c64e6037e53ad08d2fe2b09875522bbf465bd79eb43ba3a"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ModelLedConstraintGuard.java",
+    "bytes": 60356,
+    "sha256": "4ca6f3c447b18c87388522b4b94384f4d5e5a3f216df4904786b4f92c23f9053"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/NativeOperationPlanner.java",
+    "bytes": 30828,
+    "sha256": "8eaaae62548e85492a88ca958cca0b398fc1337c60edfb4eb955df3550b066eb"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/OperationPlan.java",
+    "bytes": 6331,
+    "sha256": "543d4e43c160664115945871a5eedca4368e6142e68f5f784d7b63c7863795b4"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ParameterSourceGuard.java",
+    "bytes": 99112,
+    "sha256": "4152f85c8c506e0c77225e7e955f4d11902079895871eb107851d2c72a4938cd"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/PcSemanticGuard.java",
+    "bytes": 35051,
+    "sha256": "21fae8710447f2bc0be737e0b3cbb9eba4a562271ec632a6cb1673a0934eb34c"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ReadonlyStateResponse.java",
+    "bytes": 2029,
+    "sha256": "50943264e38d6eaa87ba579c4318989fd8f57603349ac10c64d9bdab527628fb"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ReliableCatalogConflictEvidence.java",
+    "bytes": 27017,
+    "sha256": "09dbf44b61af4a9a18d0705a9ecab16209cd9405fbadd86ea40b6dc943e519ea"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ScpiTableEligibility.java",
+    "bytes": 13595,
+    "sha256": "8814d9c2cb8131cf866001e3f4c984effc6b89ea33f628d1565e5c6918e57624"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/SemanticLanguage.java",
+    "bytes": 264,
+    "sha256": "5478e8bbd9ebc82a53ab0f32773794a614b8dc8ccb2797a7c12b697813825b20"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/SemanticPolicy.java",
+    "bytes": 104170,
+    "sha256": "a217dabccabe3b10caaca2c771b374ab98b5f931def5d4f4b6245337b866109e"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/SharedBilingualEngine.java",
+    "bytes": 3777,
+    "sha256": "2b215a8f0b5b30e321c4e6bffab941a8a2fa188d66f8a50c63e94bb8756eb350"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/SingleInstructionProtocol.java",
+    "bytes": 21243,
+    "sha256": "670361532884898aca151b0c33f7f81a165eff3984929944b1cd3884333fad93"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/StateSnapshot.java",
+    "bytes": 3528,
+    "sha256": "7c36d1d4d2127496fd31388103ef74da079594030f9f9c6560c248719aae39ed"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/StrictJson.java",
+    "bytes": 2323,
+    "sha256": "646fa9d5d5d80d8e331f1b5e8921e9070f609193c41682d27f60d0b901531595"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/TextSpanMapping.java",
+    "bytes": 1714,
+    "sha256": "59955821f14a30aaa2bd0e5032b9d0c42898ef3f4abe826e5828346fbc086832"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/UnitSourceModel.java",
+    "bytes": 11775,
+    "sha256": "d11cdf95723af1baa9ada6a679214cd99176472d19f96c46de3d0ca2f72775cf"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/ValidatedExplicitContext.java",
+    "bytes": 13110,
+    "sha256": "052de446c3a2f2f007e0bcba46825b2cdf1f1b4bf29e9ccc9e3b32909830875d"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/WorkflowEnvelopeV2.java",
+    "bytes": 13116,
+    "sha256": "14ac7bed2b9ca8aeba114e79a760fad462afe2fe886348a37f4f4d2b0b29b536"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/nativebridge/RkllmInitializationConfig.java",
+    "bytes": 2305,
+    "sha256": "8a18239bb2e191c269068d552b3cc26ff67bc5c680f6aca9c0d512442bdcb88d"
+  },
+  {
+    "path": "app/src/main/java/com/lilliput/ads10000a/voice/nativebridge/RkllmNative.java",
+    "bytes": 5292,
+    "sha256": "a29739ab2a5edb877df700095d317bf91fa6dc09f5f83876cf7dcd954ede735b"
+  },
+  {
+    "path": "app/src/main/res/drawable/floating_button_background.xml",
+    "bytes": 290,
+    "sha256": "018a5b65cc3111c766e72e9498ee2a49f7e7c936bee9d23752d172a8f751c1f5"
+  },
+  {
+    "path": "app/src/main/res/drawable/panel_background.xml",
+    "bytes": 383,
+    "sha256": "ac24c46b6810ba1f9cb2d3c000264b9c9370b695f1a07f247a1d0e148f7bb068"
+  },
+  {
+    "path": "app/src/main/res/layout/activity_main.xml",
+    "bytes": 3422,
+    "sha256": "ff7011fa0f64c2c98746a9e126a20d4c588dd18ec2f46b702a4443a1bc42ca48"
+  },
+  {
+    "path": "app/src/main/res/layout/overlay_button.xml",
+    "bytes": 430,
+    "sha256": "e188221d8be09c3c6abda227dffa2c786a13d3cb9bc5c2c9521f8d99c60ee318"
+  },
+  {
+    "path": "app/src/main/res/layout/overlay_panel.xml",
+    "bytes": 2692,
+    "sha256": "71832cba75f21900e5e524debd2c1682ceb53731f6e26c2fbf7e3f7dae5dceb5"
+  },
+  {
+    "path": "app/src/main/res/values/colors.xml",
+    "bytes": 406,
+    "sha256": "182a0d5eb22be85b5ddc0c254fa1754e2a8c10ba6a9e85441353fb6a4a1c2d1c"
+  },
+  {
+    "path": "app/src/main/res/values/styles.xml",
+    "bytes": 491,
+    "sha256": "c4df1954c6e42de5326be86be711fc6bf84809ee4fcc7aa91aa97356135cb06e"
+  },
+  {
+    "path": "app/src/test/java/com/jmu/text2scpi/scpi/VerifiedSetReadbackTest.java",
+    "bytes": 5845,
+    "sha256": "6cda04b7a2e3871199be9d7970da95f57d80905bb1e98053fae82c28160b76c9"
+  },
+  {
+    "path": "app/src/test/java/com/jmu/text2scpi/tts/FeedbackInteractionTest.java",
+    "bytes": 1200,
+    "sha256": "973455d25666943f216990f80e935538a9b3d33eec0b397818f870cf48aa46ac"
+  },
+  {
+    "path": "app/src/test/java/com/jmu/text2scpi/ui/UiTextTest.java",
+    "bytes": 1537,
+    "sha256": "f82c8636c2aa36b24e50d72fe61273e3b7ab86dfa866cd4c3fbea5f5275e0c8b"
+  },
+  {
+    "path": "app/src/test/java/com/jmu/text2scpi/voice/ConversationFlowTest.java",
+    "bytes": 4853,
+    "sha256": "221589da7eb4c17c0f9213b07fe76bc772db51a24e0e3e93fbf6e537c4934b68"
+  },
+  {
+    "path": "app/src/test/java/com/jmu/text2scpi/voice/EnglishAsrSelectionTest.java",
+    "bytes": 1936,
+    "sha256": "294cf7fa4e8058b9f542e98e4807e09d646eb93d578789aa12cd86c271b143a3"
+  },
+  {
+    "path": "app/src/test/java/com/lilliput/ads10000a/voice/BilingualPolicyIntegrationTest.java",
+    "bytes": 4948,
+    "sha256": "2f866d95a7c1785ec554e86cd8f163a5236800ea3d3df5c8931a04dcebbbec5e"
+  },
+  {
+    "path": "gradle/wrapper/gradle-wrapper.jar",
+    "bytes": 43504,
+    "sha256": "498495120a03b9a6ab5d155f5de3c8f0d986a449153702fb80fc80e134484f17"
+  },
+  {
+    "path": "gradle/wrapper/gradle-wrapper.properties",
+    "bytes": 250,
+    "sha256": "3d91f0932da99885c41e9dc4e85c9f9a2d3bfef4f0ad87473014dc0827a94884"
+  }
+]

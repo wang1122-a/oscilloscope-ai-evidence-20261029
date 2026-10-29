@@ -1,0 +1,11 @@
+<resources>
+    <color name="navy">#101827</color>
+    <color name="panel">#182235</color>
+    <color name="line">#344158</color>
+    <color name="text_primary">#F2F5FA</color>
+    <color name="text_secondary">#B5C0D4</color>
+    <color name="accent">#35C2FF</color>
+    <color name="positive">#53DB9A</color>
+    <color name="warning">#FFCA68</color>
+    <color name="danger">#FF7D8A</color>
+</resources>

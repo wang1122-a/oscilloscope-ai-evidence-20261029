@@ -1,0 +1,38 @@
+{
+  "checked_date": "2026-10-28",
+  "resources": [
+    {
+      "name": "SenseVoice官方源码",
+      "url": "https://github.com/QwenAudio/SenseVoice",
+      "purpose": "基础架构与方法来源",
+      "license_note": "当前官方源码MIT；权重另按模型卡"
+    },
+    {
+      "name": "SenseVoiceSmall官方基础模型",
+      "url": "https://huggingface.co/FunAudioLLM/SenseVoiceSmall",
+      "purpose": "基础模型获取与来源核验",
+      "license_note": "FunASR Model Open Source License Agreement，按实际取得版本核对"
+    },
+    {
+      "name": "SenseVoice原官方入口",
+      "url": "https://github.com/FunAudioLLM/SenseVoice",
+      "purpose": "历史来源入口，当前重定向至QwenAudio/SenseVoice"
+    },
+    {
+      "name": "Qwen3 0.6B官方基础模型",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "purpose": "意图模型基础权重、模型卡与使用方法",
+      "license_note": "Apache-2.0"
+    },
+    {
+      "name": "FunASR模型协议",
+      "url": "https://github.com/modelscope/FunASR/blob/main/MODEL_LICENSE",
+      "purpose": "SenseVoice官方模型许可入口"
+    },
+    {
+      "name": "sherpa-onnx RKNN说明",
+      "url": "https://k2-fsa.github.io/sherpa/onnx/rknn/index.html",
+      "purpose": "RKNN运行环境与平台适配说明"
+    }
+  ]
+}

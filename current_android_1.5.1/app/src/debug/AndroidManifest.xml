@@ -1,0 +1,3 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <instrumentation android:name="com.jmu.text2scpi.validation.DeviceValidation" android:targetPackage="com.owon.voicecontrol" />
+</manifest>

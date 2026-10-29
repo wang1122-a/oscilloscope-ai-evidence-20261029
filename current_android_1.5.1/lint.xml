@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Device-side internal APK, not Google Play distribution. Keep API 31 behavior for Android 12.
+         Report Play's newer-target policy as a warning; runtime/API/permission errors still fail lint. -->
+    <issue id="ExpiredTargetSdkVersion" severity="warning" />
+</lint>

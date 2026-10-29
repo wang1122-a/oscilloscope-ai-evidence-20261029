@@ -1,0 +1,17 @@
+#pragma once
+#include <chrono>
+#include <cstdint>
+#include <sstream>
+#include <sys/syscall.h>
+#include <unistd.h>
+#define R15_CALLBACK_DIAGNOSTICS 1
+struct CallbackDiagnostics {
+ uint64_t callback_calls=0,normal_state_calls=0,waiting_state_calls=0,finish_state_calls=0,error_state_calls=0;
+ uint64_t java_dispatch_calls=0,env_get_calls=0,env_already_attached=0,env_detached=0,env_get_failures=0,attach_calls=0,attach_failures=0,detach_calls=0,detach_failures=0,java_exceptions=0;
+ double callback_wall_ms=0,native_collect_ms=0,env_get_ms=0,attach_ms=0,byte_array_ms=0,java_dispatch_ms=0,local_ref_exception_ms=0,detach_ms=0;
+ double first_entry_ms=-1,first_normal_entry_ms=-1,last_normal_entry_ms=-1,finish_entry_ms=-1;
+ int64_t first_tid=0,last_tid=0;uint64_t callback_tid_changes=0;
+ void entry(int state,double elapsed){if(first_entry_ms<0)first_entry_ms=elapsed;if(state==0){if(first_normal_entry_ms<0)first_normal_entry_ms=elapsed;last_normal_entry_ms=elapsed;}if(state==2)finish_entry_ms=elapsed;callback_calls++;if(state==0)normal_state_calls++;else if(state==1)waiting_state_calls++;else if(state==2)finish_state_calls++;else if(state==3)error_state_calls++;const int64_t tid=syscall(SYS_gettid);if(!first_tid)first_tid=tid;if(last_tid&&last_tid!=tid)callback_tid_changes++;last_tid=tid;}
+ std::string json()const{std::ostringstream o;o.precision(12);o<<"{\"scope\":\"actual_C_callback_wall_and_JNI_operations_including_Java_handler_not_kernel\",\"callback_calls\":"<<callback_calls<<",\"normal_state_calls\":"<<normal_state_calls<<",\"waiting_state_calls\":"<<waiting_state_calls<<",\"finish_state_calls\":"<<finish_state_calls<<",\"error_state_calls\":"<<error_state_calls<<",\"callback_wall_ms\":"<<callback_wall_ms<<",\"first_callback_entry_ms\":"<<first_entry_ms<<",\"first_normal_callback_entry_ms\":"<<first_normal_entry_ms<<",\"last_normal_callback_entry_ms\":"<<last_normal_entry_ms<<",\"finish_callback_entry_ms\":"<<finish_entry_ms<<",\"normal_first_to_finish_entry_span_ms\":"<<(first_normal_entry_ms>=0&&finish_entry_ms>=0?std::to_string(finish_entry_ms-first_normal_entry_ms):"null")<<",\"native_collect_ms\":"<<native_collect_ms<<",\"env_get_calls\":"<<env_get_calls<<",\"env_get_ms\":"<<env_get_ms<<",\"env_already_attached_calls\":"<<env_already_attached<<",\"env_detached_calls\":"<<env_detached<<",\"env_get_failures\":"<<env_get_failures<<",\"attach_calls\":"<<attach_calls<<",\"attach_ms\":"<<attach_ms<<",\"attach_failures\":"<<attach_failures<<",\"byte_array_create_fill_ms\":"<<byte_array_ms<<",\"java_dispatch_calls\":"<<java_dispatch_calls<<",\"java_dispatch_including_handler_ms\":"<<java_dispatch_ms<<",\"local_ref_exception_ms\":"<<local_ref_exception_ms<<",\"java_exceptions\":"<<java_exceptions<<",\"detach_calls\":"<<detach_calls<<",\"detach_ms\":"<<detach_ms<<",\"detach_failures\":"<<detach_failures<<",\"first_callback_tid\":"<<first_tid<<",\"last_callback_tid\":"<<last_tid<<",\"callback_tid_changes\":"<<callback_tid_changes<<",\"Java_to_native_entry_dispatch_ms\":null,\"pure_JNI_trampoline_ms\":null,\"pure_kernel_ms\":null,\"observer_overhead_subtracted\":false}";return o.str();}
+};
+struct CallbackStageTimer {double&total;std::chrono::steady_clock::time_point started=std::chrono::steady_clock::now();explicit CallbackStageTimer(double&t):total(t){}~CallbackStageTimer(){total+=std::chrono::duration<double,std::milli>(std::chrono::steady_clock::now()-started).count();}};

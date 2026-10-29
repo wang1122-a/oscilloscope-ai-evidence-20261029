@@ -1,0 +1,1697 @@
+{
+  "schema": "recognition-dictionary-only-v1",
+  "prepared_from_sha256": "1377e7a7aa3bd8260a8363ea1a617f1f568d92bc50a565e4581f77b3ae0c157f",
+  "terms": [
+    {
+      "language": "zh",
+      "canonical": "时基",
+      "readings": [
+        "时基"
+      ],
+      "term_id": "zh_timebase"
+    },
+    {
+      "language": "zh",
+      "canonical": "触发",
+      "readings": [
+        "触发"
+      ],
+      "term_id": "zh_trigger"
+    },
+    {
+      "language": "zh",
+      "canonical": "触发模式",
+      "readings": [
+        "触发模式"
+      ],
+      "term_id": "zh_trigger_mode"
+    },
+    {
+      "language": "zh",
+      "canonical": "触发源",
+      "readings": [
+        "触发源"
+      ],
+      "term_id": "zh_trigger_source"
+    },
+    {
+      "language": "zh",
+      "canonical": "触发释抑",
+      "readings": [
+        "触发释抑"
+      ],
+      "term_id": "zh_trigger_holdoff"
+    },
+    {
+      "language": "zh",
+      "canonical": "上升沿",
+      "readings": [
+        "上升沿"
+      ],
+      "term_id": "zh_rising_edge"
+    },
+    {
+      "language": "zh",
+      "canonical": "下降沿",
+      "readings": [
+        "下降沿"
+      ],
+      "term_id": "zh_falling_edge"
+    },
+    {
+      "language": "zh",
+      "canonical": "水平时基",
+      "readings": [
+        "水平时基"
+      ],
+      "term_id": "zh_horizontal_scale"
+    },
+    {
+      "language": "zh",
+      "canonical": "垂直档位",
+      "readings": [
+        "垂直档位"
+      ],
+      "term_id": "zh_vertical_scale"
+    },
+    {
+      "language": "zh",
+      "canonical": "交流耦合",
+      "readings": [
+        "交流耦合"
+      ],
+      "term_id": "zh_ac_coupling"
+    },
+    {
+      "language": "zh",
+      "canonical": "直流耦合",
+      "readings": [
+        "直流耦合"
+      ],
+      "term_id": "zh_dc_coupling"
+    },
+    {
+      "language": "zh",
+      "canonical": "带宽",
+      "readings": [
+        "带宽"
+      ],
+      "term_id": "zh_bandwidth"
+    },
+    {
+      "language": "zh",
+      "canonical": "带宽限制",
+      "readings": [
+        "带宽限制"
+      ],
+      "term_id": "zh_bandwidth_limit"
+    },
+    {
+      "language": "zh",
+      "canonical": "采样率",
+      "readings": [
+        "采样率"
+      ],
+      "term_id": "zh_sample_rate"
+    },
+    {
+      "language": "zh",
+      "canonical": "存储深度",
+      "readings": [
+        "存储深度"
+      ],
+      "term_id": "zh_memory_depth"
+    },
+    {
+      "language": "zh",
+      "canonical": "采集",
+      "readings": [
+        "采集"
+      ],
+      "term_id": "zh_acquisition"
+    },
+    {
+      "language": "zh",
+      "canonical": "波形",
+      "readings": [
+        "波形"
+      ],
+      "term_id": "zh_waveform"
+    },
+    {
+      "language": "zh",
+      "canonical": "波形录制",
+      "readings": [
+        "波形录制"
+      ],
+      "term_id": "zh_waveform_recording"
+    },
+    {
+      "language": "zh",
+      "canonical": "平均",
+      "readings": [
+        "平均"
+      ],
+      "term_id": "zh_average"
+    },
+    {
+      "language": "zh",
+      "canonical": "峰值检测",
+      "readings": [
+        "峰值检测"
+      ],
+      "term_id": "zh_peak_detect"
+    },
+    {
+      "language": "zh",
+      "canonical": "高分辨率",
+      "readings": [
+        "高分辨率"
+      ],
+      "term_id": "zh_high_resolution"
+    },
+    {
+      "language": "zh",
+      "canonical": "频率",
+      "readings": [
+        "频率"
+      ],
+      "term_id": "zh_frequency"
+    },
+    {
+      "language": "zh",
+      "canonical": "周期",
+      "readings": [
+        "周期"
+      ],
+      "term_id": "zh_period"
+    },
+    {
+      "language": "zh",
+      "canonical": "幅度",
+      "readings": [
+        "幅度"
+      ],
+      "term_id": "zh_amplitude"
+    },
+    {
+      "language": "zh",
+      "canonical": "峰峰值",
+      "readings": [
+        "峰峰值"
+      ],
+      "term_id": "zh_peak_to_peak"
+    },
+    {
+      "language": "zh",
+      "canonical": "有效值",
+      "readings": [
+        "有效值"
+      ],
+      "term_id": "zh_rms"
+    },
+    {
+      "language": "zh",
+      "canonical": "上升时间",
+      "readings": [
+        "上升时间"
+      ],
+      "term_id": "zh_rise_time"
+    },
+    {
+      "language": "zh",
+      "canonical": "下降时间",
+      "readings": [
+        "下降时间"
+      ],
+      "term_id": "zh_fall_time"
+    },
+    {
+      "language": "zh",
+      "canonical": "脉宽",
+      "readings": [
+        "脉宽"
+      ],
+      "term_id": "zh_pulse_width"
+    },
+    {
+      "language": "zh",
+      "canonical": "占空比",
+      "readings": [
+        "占空比"
+      ],
+      "term_id": "zh_duty_cycle"
+    },
+    {
+      "language": "zh",
+      "canonical": "相位",
+      "readings": [
+        "相位"
+      ],
+      "term_id": "zh_phase"
+    },
+    {
+      "language": "zh",
+      "canonical": "延迟",
+      "readings": [
+        "延迟"
+      ],
+      "term_id": "zh_delay"
+    },
+    {
+      "language": "zh",
+      "canonical": "光标",
+      "readings": [
+        "光标"
+      ],
+      "term_id": "zh_cursor"
+    },
+    {
+      "language": "zh",
+      "canonical": "峰值表",
+      "readings": [
+        "峰值表"
+      ],
+      "term_id": "zh_peak_table"
+    },
+    {
+      "language": "zh",
+      "canonical": "数学运算",
+      "readings": [
+        "数学运算"
+      ],
+      "term_id": "zh_math"
+    },
+    {
+      "language": "zh",
+      "canonical": "数字电压表",
+      "readings": [
+        "数字电压表"
+      ],
+      "term_id": "zh_digital_voltmeter"
+    },
+    {
+      "language": "zh",
+      "canonical": "自动设置",
+      "readings": [
+        "自动设置"
+      ],
+      "term_id": "zh_autoscale"
+    },
+    {
+      "language": "en",
+      "canonical": "trigger",
+      "readings": [
+        "trigger"
+      ],
+      "term_id": "en_trigger"
+    },
+    {
+      "language": "en",
+      "canonical": "AC coupling",
+      "readings": [
+        "AC coupling",
+        "A C coupling"
+      ],
+      "term_id": "en_ac_coupling"
+    },
+    {
+      "language": "en",
+      "canonical": "DC coupling",
+      "readings": [
+        "DC coupling",
+        "D C coupling"
+      ],
+      "term_id": "en_dc_coupling"
+    },
+    {
+      "language": "en",
+      "canonical": "bandwidth",
+      "readings": [
+        "bandwidth"
+      ],
+      "term_id": "en_bandwidth"
+    },
+    {
+      "language": "en",
+      "canonical": "waveform",
+      "readings": [
+        "waveform"
+      ],
+      "term_id": "en_waveform"
+    },
+    {
+      "language": "en",
+      "canonical": "acquisition",
+      "readings": [
+        "acquisition"
+      ],
+      "term_id": "en_acquisition"
+    },
+    {
+      "language": "en",
+      "canonical": "frequency",
+      "readings": [
+        "frequency"
+      ],
+      "term_id": "en_frequency"
+    },
+    {
+      "language": "en",
+      "canonical": "period",
+      "readings": [
+        "period"
+      ],
+      "term_id": "en_period"
+    },
+    {
+      "language": "en",
+      "canonical": "amplitude",
+      "readings": [
+        "amplitude"
+      ],
+      "term_id": "en_amplitude"
+    },
+    {
+      "language": "en",
+      "canonical": "RMS",
+      "readings": [
+        "R M S"
+      ],
+      "term_id": "en_rms"
+    },
+    {
+      "language": "en",
+      "canonical": "phase",
+      "readings": [
+        "phase"
+      ],
+      "term_id": "en_phase"
+    },
+    {
+      "language": "en",
+      "canonical": "cursor",
+      "readings": [
+        "cursor"
+      ],
+      "term_id": "en_cursor"
+    },
+    {
+      "language": "en",
+      "canonical": "DVM",
+      "readings": [
+        "D V M"
+      ],
+      "term_id": "en_dvm"
+    },
+    {
+      "language": "en",
+      "canonical": "FFT",
+      "readings": [
+        "F F T"
+      ],
+      "term_id": "en_fft"
+    },
+    {
+      "language": "en",
+      "canonical": "FFT1",
+      "readings": [
+        "F F T one"
+      ],
+      "term_id": "en_fft1"
+    },
+    {
+      "language": "en",
+      "canonical": "CH1",
+      "readings": [
+        "channel one"
+      ],
+      "term_id": "en_ch1"
+    },
+    {
+      "language": "en",
+      "canonical": "CH2",
+      "readings": [
+        "channel two"
+      ],
+      "term_id": "en_ch2"
+    },
+    {
+      "language": "en",
+      "canonical": "CH3",
+      "readings": [
+        "channel three"
+      ],
+      "term_id": "en_ch3"
+    },
+    {
+      "language": "en",
+      "canonical": "CH4",
+      "readings": [
+        "channel four"
+      ],
+      "term_id": "en_ch4"
+    },
+    {
+      "language": "en",
+      "canonical": "I2C",
+      "readings": [
+        "I two C"
+      ],
+      "term_id": "en_i2c"
+    },
+    {
+      "language": "en",
+      "canonical": "SPI",
+      "readings": [
+        "S P I"
+      ],
+      "term_id": "en_spi"
+    },
+    {
+      "language": "zh",
+      "canonical": "DVM",
+      "readings": [
+        "D V M"
+      ],
+      "term_id": "mixed_dvm"
+    },
+    {
+      "language": "zh",
+      "canonical": "FFT",
+      "readings": [
+        "F F T"
+      ],
+      "term_id": "mixed_fft"
+    },
+    {
+      "language": "zh",
+      "canonical": "FFT1",
+      "readings": [
+        "F F T 一"
+      ],
+      "term_id": "mixed_fft1"
+    },
+    {
+      "language": "zh",
+      "canonical": "CH1",
+      "readings": [
+        "通道一"
+      ],
+      "term_id": "mixed_ch1"
+    },
+    {
+      "language": "zh",
+      "canonical": "CH2",
+      "readings": [
+        "通道二"
+      ],
+      "term_id": "mixed_ch2"
+    },
+    {
+      "language": "zh",
+      "canonical": "CH3",
+      "readings": [
+        "通道三"
+      ],
+      "term_id": "mixed_ch3"
+    },
+    {
+      "language": "zh",
+      "canonical": "CH4",
+      "readings": [
+        "通道四"
+      ],
+      "term_id": "mixed_ch4"
+    },
+    {
+      "language": "zh",
+      "canonical": "I2C",
+      "readings": [
+        "I 二 C"
+      ],
+      "term_id": "mixed_i2c"
+    },
+    {
+      "language": "zh",
+      "canonical": "SPI",
+      "readings": [
+        "S P I"
+      ],
+      "term_id": "mixed_spi"
+    },
+    {
+      "language": "zh",
+      "canonical": "探头倍率",
+      "readings": [
+        "探头倍率"
+      ],
+      "term_id": "source_zh_probe_ratio"
+    },
+    {
+      "language": "zh",
+      "canonical": "通道阻抗",
+      "readings": [
+        "通道阻抗"
+      ],
+      "term_id": "source_zh_channel_impedance"
+    },
+    {
+      "language": "zh",
+      "canonical": "余晖",
+      "readings": [
+        "余晖"
+      ],
+      "term_id": "source_zh_persistence"
+    },
+    {
+      "language": "zh",
+      "canonical": "触发类型",
+      "readings": [
+        "触发类型"
+      ],
+      "term_id": "source_zh_trigger_type"
+    },
+    {
+      "language": "zh",
+      "canonical": "边沿触发",
+      "readings": [
+        "边沿触发"
+      ],
+      "term_id": "source_zh_edge_trigger"
+    },
+    {
+      "language": "zh",
+      "canonical": "脉冲触发",
+      "readings": [
+        "脉冲触发"
+      ],
+      "term_id": "source_zh_pulse_trigger"
+    },
+    {
+      "language": "zh",
+      "canonical": "触发耦合",
+      "readings": [
+        "触发耦合"
+      ],
+      "term_id": "source_zh_trigger_coupling"
+    },
+    {
+      "language": "zh",
+      "canonical": "频响分析",
+      "readings": [
+        "频响分析"
+      ],
+      "term_id": "source_zh_frequency_response"
+    },
+    {
+      "language": "zh",
+      "canonical": "频率计",
+      "readings": [
+        "频率计"
+      ],
+      "term_id": "source_zh_frequency_counter"
+    },
+    {
+      "language": "zh",
+      "canonical": "计数器",
+      "readings": [
+        "计数器"
+      ],
+      "term_id": "source_zh_counter"
+    },
+    {
+      "language": "zh",
+      "canonical": "解码",
+      "readings": [
+        "解码"
+      ],
+      "term_id": "source_zh_decode"
+    },
+    {
+      "language": "zh",
+      "canonical": "总线",
+      "readings": [
+        "总线"
+      ],
+      "term_id": "source_zh_bus"
+    },
+    {
+      "language": "zh",
+      "canonical": "逻辑阈值",
+      "readings": [
+        "逻辑阈值"
+      ],
+      "term_id": "source_zh_logic_threshold"
+    },
+    {
+      "language": "zh",
+      "canonical": "数字通道",
+      "readings": [
+        "数字通道"
+      ],
+      "term_id": "source_zh_digital_channel"
+    },
+    {
+      "language": "zh",
+      "canonical": "放大镜",
+      "readings": [
+        "放大镜"
+      ],
+      "term_id": "source_zh_magnifier"
+    },
+    {
+      "language": "zh",
+      "canonical": "水平位置",
+      "readings": [
+        "水平位置"
+      ],
+      "term_id": "source_zh_horizontal_position"
+    },
+    {
+      "language": "zh",
+      "canonical": "垂直位置",
+      "readings": [
+        "垂直位置"
+      ],
+      "term_id": "source_zh_vertical_position"
+    },
+    {
+      "language": "zh",
+      "canonical": "垂直单位",
+      "readings": [
+        "垂直单位"
+      ],
+      "term_id": "source_zh_vertical_unit"
+    },
+    {
+      "language": "zh",
+      "canonical": "滤波器",
+      "readings": [
+        "滤波器"
+      ],
+      "term_id": "source_zh_filter"
+    },
+    {
+      "language": "zh",
+      "canonical": "低通",
+      "readings": [
+        "低通"
+      ],
+      "term_id": "source_zh_low_pass"
+    },
+    {
+      "language": "zh",
+      "canonical": "高通",
+      "readings": [
+        "高通"
+      ],
+      "term_id": "source_zh_high_pass"
+    },
+    {
+      "language": "zh",
+      "canonical": "带通",
+      "readings": [
+        "带通"
+      ],
+      "term_id": "source_zh_band_pass"
+    },
+    {
+      "language": "zh",
+      "canonical": "带阻",
+      "readings": [
+        "带阻"
+      ],
+      "term_id": "source_zh_band_stop"
+    },
+    {
+      "language": "zh",
+      "canonical": "扫频",
+      "readings": [
+        "扫频"
+      ],
+      "term_id": "source_zh_sweep"
+    },
+    {
+      "language": "zh",
+      "canonical": "调制",
+      "readings": [
+        "调制"
+      ],
+      "term_id": "source_zh_modulation"
+    },
+    {
+      "language": "zh",
+      "canonical": "快速采集",
+      "readings": [
+        "快速采集"
+      ],
+      "term_id": "source_zh_fast_acquisition"
+    },
+    {
+      "language": "zh",
+      "canonical": "频率偏移",
+      "readings": [
+        "频率偏移"
+      ],
+      "term_id": "source_zh_frequency_deviation"
+    },
+    {
+      "language": "zh",
+      "canonical": "协议版本",
+      "readings": [
+        "协议版本"
+      ],
+      "term_id": "source_zh_protocol_version"
+    },
+    {
+      "language": "zh",
+      "canonical": "位顺序",
+      "readings": [
+        "位顺序"
+      ],
+      "term_id": "source_zh_bit_order"
+    },
+    {
+      "language": "zh",
+      "canonical": "校验位",
+      "readings": [
+        "校验位"
+      ],
+      "term_id": "source_zh_parity_bit"
+    },
+    {
+      "language": "zh",
+      "canonical": "停止位",
+      "readings": [
+        "停止位"
+      ],
+      "term_id": "source_zh_stop_bit"
+    },
+    {
+      "language": "zh",
+      "canonical": "波特率",
+      "readings": [
+        "波特率"
+      ],
+      "term_id": "source_zh_baud_rate"
+    },
+    {
+      "language": "zh",
+      "canonical": "数据宽度",
+      "readings": [
+        "数据宽度"
+      ],
+      "term_id": "source_zh_data_width"
+    },
+    {
+      "language": "zh",
+      "canonical": "采样模式",
+      "readings": [
+        "采样模式"
+      ],
+      "term_id": "source_zh_sample_mode"
+    },
+    {
+      "language": "zh",
+      "canonical": "余晖时间",
+      "readings": [
+        "余晖时间"
+      ],
+      "term_id": "source_zh_persistence_time"
+    },
+    {
+      "language": "zh",
+      "canonical": "BUS1",
+      "readings": [
+        "B U S 一"
+      ],
+      "term_id": "source_id_bus1"
+    },
+    {
+      "language": "zh",
+      "canonical": "BUS2",
+      "readings": [
+        "B U S 二"
+      ],
+      "term_id": "source_id_bus2"
+    },
+    {
+      "language": "zh",
+      "canonical": "AFG1",
+      "readings": [
+        "A F G 一"
+      ],
+      "term_id": "source_id_afg1"
+    },
+    {
+      "language": "zh",
+      "canonical": "AFG2",
+      "readings": [
+        "A F G 二"
+      ],
+      "term_id": "source_id_afg2"
+    },
+    {
+      "language": "zh",
+      "canonical": "FILTER1",
+      "readings": [
+        "F I L T E R 一"
+      ],
+      "term_id": "source_id_filter1"
+    },
+    {
+      "language": "zh",
+      "canonical": "FILTER2",
+      "readings": [
+        "F I L T E R 二"
+      ],
+      "term_id": "source_id_filter2"
+    },
+    {
+      "language": "zh",
+      "canonical": "MATH1",
+      "readings": [
+        "M A T H 一"
+      ],
+      "term_id": "source_id_math1"
+    },
+    {
+      "language": "zh",
+      "canonical": "MATH2",
+      "readings": [
+        "M A T H 二"
+      ],
+      "term_id": "source_id_math2"
+    },
+    {
+      "language": "zh",
+      "canonical": "MATH3",
+      "readings": [
+        "M A T H 三"
+      ],
+      "term_id": "source_id_math3"
+    },
+    {
+      "language": "zh",
+      "canonical": "MATH4",
+      "readings": [
+        "M A T H 四"
+      ],
+      "term_id": "source_id_math4"
+    },
+    {
+      "language": "zh",
+      "canonical": "FFT2",
+      "readings": [
+        "F F T 二"
+      ],
+      "term_id": "source_id_fft2"
+    },
+    {
+      "language": "zh",
+      "canonical": "D0",
+      "readings": [
+        "D 零"
+      ],
+      "term_id": "source_id_d0"
+    },
+    {
+      "language": "zh",
+      "canonical": "D1",
+      "readings": [
+        "D 一"
+      ],
+      "term_id": "source_id_d1"
+    },
+    {
+      "language": "zh",
+      "canonical": "D2",
+      "readings": [
+        "D 二"
+      ],
+      "term_id": "source_id_d2"
+    },
+    {
+      "language": "zh",
+      "canonical": "D3",
+      "readings": [
+        "D 三"
+      ],
+      "term_id": "source_id_d3"
+    },
+    {
+      "language": "zh",
+      "canonical": "D4",
+      "readings": [
+        "D 四"
+      ],
+      "term_id": "source_id_d4"
+    },
+    {
+      "language": "zh",
+      "canonical": "D5",
+      "readings": [
+        "D 五"
+      ],
+      "term_id": "source_id_d5"
+    },
+    {
+      "language": "zh",
+      "canonical": "D6",
+      "readings": [
+        "D 六"
+      ],
+      "term_id": "source_id_d6"
+    },
+    {
+      "language": "zh",
+      "canonical": "D7",
+      "readings": [
+        "D 七"
+      ],
+      "term_id": "source_id_d7"
+    },
+    {
+      "language": "zh",
+      "canonical": "D8",
+      "readings": [
+        "D 八"
+      ],
+      "term_id": "source_id_d8"
+    },
+    {
+      "language": "zh",
+      "canonical": "D9",
+      "readings": [
+        "D 九"
+      ],
+      "term_id": "source_id_d9"
+    },
+    {
+      "language": "zh",
+      "canonical": "D10",
+      "readings": [
+        "D 十"
+      ],
+      "term_id": "source_id_d10"
+    },
+    {
+      "language": "zh",
+      "canonical": "D11",
+      "readings": [
+        "D 十一"
+      ],
+      "term_id": "source_id_d11"
+    },
+    {
+      "language": "zh",
+      "canonical": "D12",
+      "readings": [
+        "D 十二"
+      ],
+      "term_id": "source_id_d12"
+    },
+    {
+      "language": "zh",
+      "canonical": "D13",
+      "readings": [
+        "D 十三"
+      ],
+      "term_id": "source_id_d13"
+    },
+    {
+      "language": "zh",
+      "canonical": "D14",
+      "readings": [
+        "D 十四"
+      ],
+      "term_id": "source_id_d14"
+    },
+    {
+      "language": "zh",
+      "canonical": "D15",
+      "readings": [
+        "D 十五"
+      ],
+      "term_id": "source_id_d15"
+    },
+    {
+      "language": "zh",
+      "canonical": "RS232",
+      "readings": [
+        "R S 二 三 二"
+      ],
+      "term_id": "source_acronym_rs232"
+    },
+    {
+      "language": "zh",
+      "canonical": "RS232C",
+      "readings": [
+        "R S 二 三 二 C"
+      ],
+      "term_id": "source_acronym_rs232c"
+    },
+    {
+      "language": "zh",
+      "canonical": "CAN",
+      "readings": [
+        "C A N"
+      ],
+      "term_id": "source_acronym_can"
+    },
+    {
+      "language": "zh",
+      "canonical": "CAN_H",
+      "readings": [
+        "C A N H"
+      ],
+      "term_id": "source_acronym_can_h"
+    },
+    {
+      "language": "zh",
+      "canonical": "LIN",
+      "readings": [
+        "L I N"
+      ],
+      "term_id": "source_acronym_lin"
+    },
+    {
+      "language": "zh",
+      "canonical": "SCL",
+      "readings": [
+        "S C L"
+      ],
+      "term_id": "source_acronym_scl"
+    },
+    {
+      "language": "zh",
+      "canonical": "SDA",
+      "readings": [
+        "S D A"
+      ],
+      "term_id": "source_acronym_sda"
+    },
+    {
+      "language": "zh",
+      "canonical": "MISO",
+      "readings": [
+        "M I S O"
+      ],
+      "term_id": "source_acronym_miso"
+    },
+    {
+      "language": "zh",
+      "canonical": "MOSI",
+      "readings": [
+        "M O S I"
+      ],
+      "term_id": "source_acronym_mosi"
+    },
+    {
+      "language": "zh",
+      "canonical": "CS",
+      "readings": [
+        "C S"
+      ],
+      "term_id": "source_acronym_cs"
+    },
+    {
+      "language": "zh",
+      "canonical": "SS",
+      "readings": [
+        "S S"
+      ],
+      "term_id": "source_acronym_ss"
+    },
+    {
+      "language": "zh",
+      "canonical": "TTL",
+      "readings": [
+        "T T L"
+      ],
+      "term_id": "source_acronym_ttl"
+    },
+    {
+      "language": "zh",
+      "canonical": "ECL",
+      "readings": [
+        "E C L"
+      ],
+      "term_id": "source_acronym_ecl"
+    },
+    {
+      "language": "zh",
+      "canonical": "FRA",
+      "readings": [
+        "F R A"
+      ],
+      "term_id": "source_acronym_fra"
+    },
+    {
+      "language": "zh",
+      "canonical": "AFG",
+      "readings": [
+        "A F G"
+      ],
+      "term_id": "source_acronym_afg"
+    },
+    {
+      "language": "zh",
+      "canonical": "AM",
+      "readings": [
+        "A M"
+      ],
+      "term_id": "source_acronym_am"
+    },
+    {
+      "language": "zh",
+      "canonical": "FM",
+      "readings": [
+        "F M"
+      ],
+      "term_id": "source_acronym_fm"
+    },
+    {
+      "language": "zh",
+      "canonical": "PM",
+      "readings": [
+        "P M"
+      ],
+      "term_id": "source_acronym_pm"
+    },
+    {
+      "language": "zh",
+      "canonical": "FSK",
+      "readings": [
+        "F S K"
+      ],
+      "term_id": "source_acronym_fsk"
+    },
+    {
+      "language": "zh",
+      "canonical": "ASCII",
+      "readings": [
+        "A S C I I"
+      ],
+      "term_id": "source_acronym_ascii"
+    },
+    {
+      "language": "zh",
+      "canonical": "XY",
+      "readings": [
+        "X Y"
+      ],
+      "term_id": "source_acronym_xy"
+    },
+    {
+      "language": "en",
+      "canonical": "timebase",
+      "readings": [
+        "timebase"
+      ],
+      "term_id": "en_timebase"
+    },
+    {
+      "language": "en",
+      "canonical": "trigger source",
+      "readings": [
+        "trigger source"
+      ],
+      "term_id": "en_trigger_source"
+    },
+    {
+      "language": "en",
+      "canonical": "trigger holdoff",
+      "readings": [
+        "trigger holdoff"
+      ],
+      "term_id": "en_holdoff"
+    },
+    {
+      "language": "en",
+      "canonical": "rising edge",
+      "readings": [
+        "rising edge"
+      ],
+      "term_id": "en_rising_edge"
+    },
+    {
+      "language": "en",
+      "canonical": "falling edge",
+      "readings": [
+        "falling edge"
+      ],
+      "term_id": "en_falling_edge"
+    },
+    {
+      "language": "en",
+      "canonical": "sample rate",
+      "readings": [
+        "sample rate"
+      ],
+      "term_id": "en_sample_rate"
+    },
+    {
+      "language": "en",
+      "canonical": "memory depth",
+      "readings": [
+        "memory depth"
+      ],
+      "term_id": "en_memory_depth"
+    },
+    {
+      "language": "en",
+      "canonical": "peak detection",
+      "readings": [
+        "peak detection"
+      ],
+      "term_id": "en_peak_detect"
+    },
+    {
+      "language": "en",
+      "canonical": "peak-to-peak voltage",
+      "readings": [
+        "peak-to-peak voltage"
+      ],
+      "term_id": "en_peak_to_peak"
+    },
+    {
+      "language": "en",
+      "canonical": "pulse width",
+      "readings": [
+        "pulse width"
+      ],
+      "term_id": "en_pulse_width"
+    },
+    {
+      "language": "en",
+      "canonical": "duty cycle",
+      "readings": [
+        "duty cycle"
+      ],
+      "term_id": "en_duty_cycle"
+    },
+    {
+      "language": "en",
+      "canonical": "rise time",
+      "readings": [
+        "rise time"
+      ],
+      "term_id": "en_rise_time"
+    },
+    {
+      "language": "en",
+      "canonical": "BUS1",
+      "readings": [
+        "B U S one"
+      ],
+      "term_id": "source_id_bus1_en"
+    },
+    {
+      "language": "en",
+      "canonical": "BUS2",
+      "readings": [
+        "B U S two"
+      ],
+      "term_id": "source_id_bus2_en"
+    },
+    {
+      "language": "en",
+      "canonical": "AFG1",
+      "readings": [
+        "A F G one"
+      ],
+      "term_id": "source_id_afg1_en"
+    },
+    {
+      "language": "en",
+      "canonical": "AFG2",
+      "readings": [
+        "A F G two"
+      ],
+      "term_id": "source_id_afg2_en"
+    },
+    {
+      "language": "en",
+      "canonical": "FILTER1",
+      "readings": [
+        "F I L T E R one"
+      ],
+      "term_id": "source_id_filter1_en"
+    },
+    {
+      "language": "en",
+      "canonical": "FILTER2",
+      "readings": [
+        "F I L T E R two"
+      ],
+      "term_id": "source_id_filter2_en"
+    },
+    {
+      "language": "en",
+      "canonical": "MATH1",
+      "readings": [
+        "M A T H one"
+      ],
+      "term_id": "source_id_math1_en"
+    },
+    {
+      "language": "en",
+      "canonical": "MATH2",
+      "readings": [
+        "M A T H two"
+      ],
+      "term_id": "source_id_math2_en"
+    },
+    {
+      "language": "en",
+      "canonical": "MATH3",
+      "readings": [
+        "M A T H three"
+      ],
+      "term_id": "source_id_math3_en"
+    },
+    {
+      "language": "en",
+      "canonical": "MATH4",
+      "readings": [
+        "M A T H four"
+      ],
+      "term_id": "source_id_math4_en"
+    },
+    {
+      "language": "en",
+      "canonical": "FFT2",
+      "readings": [
+        "F F T two"
+      ],
+      "term_id": "source_id_fft2_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D0",
+      "readings": [
+        "D zero"
+      ],
+      "term_id": "source_id_d0_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D1",
+      "readings": [
+        "D one"
+      ],
+      "term_id": "source_id_d1_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D2",
+      "readings": [
+        "D two"
+      ],
+      "term_id": "source_id_d2_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D3",
+      "readings": [
+        "D three"
+      ],
+      "term_id": "source_id_d3_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D4",
+      "readings": [
+        "D four"
+      ],
+      "term_id": "source_id_d4_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D5",
+      "readings": [
+        "D five"
+      ],
+      "term_id": "source_id_d5_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D6",
+      "readings": [
+        "D six"
+      ],
+      "term_id": "source_id_d6_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D7",
+      "readings": [
+        "D seven"
+      ],
+      "term_id": "source_id_d7_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D8",
+      "readings": [
+        "D eight"
+      ],
+      "term_id": "source_id_d8_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D9",
+      "readings": [
+        "D nine"
+      ],
+      "term_id": "source_id_d9_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D10",
+      "readings": [
+        "D ten"
+      ],
+      "term_id": "source_id_d10_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D11",
+      "readings": [
+        "D eleven"
+      ],
+      "term_id": "source_id_d11_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D12",
+      "readings": [
+        "D twelve"
+      ],
+      "term_id": "source_id_d12_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D13",
+      "readings": [
+        "D thirteen"
+      ],
+      "term_id": "source_id_d13_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D14",
+      "readings": [
+        "D fourteen"
+      ],
+      "term_id": "source_id_d14_en"
+    },
+    {
+      "language": "en",
+      "canonical": "D15",
+      "readings": [
+        "D fifteen"
+      ],
+      "term_id": "source_id_d15_en"
+    },
+    {
+      "language": "en",
+      "canonical": "RS232",
+      "readings": [
+        "R S two three two"
+      ],
+      "term_id": "source_acronym_rs232_en"
+    },
+    {
+      "language": "en",
+      "canonical": "RS232C",
+      "readings": [
+        "R S two three two C"
+      ],
+      "term_id": "source_acronym_rs232c_en"
+    },
+    {
+      "language": "en",
+      "canonical": "CAN",
+      "readings": [
+        "C A N"
+      ],
+      "term_id": "source_acronym_can_en"
+    },
+    {
+      "language": "en",
+      "canonical": "CAN_H",
+      "readings": [
+        "C A N H"
+      ],
+      "term_id": "source_acronym_can_h_en"
+    },
+    {
+      "language": "en",
+      "canonical": "LIN",
+      "readings": [
+        "L I N"
+      ],
+      "term_id": "source_acronym_lin_en"
+    },
+    {
+      "language": "en",
+      "canonical": "SCL",
+      "readings": [
+        "S C L"
+      ],
+      "term_id": "source_acronym_scl_en"
+    },
+    {
+      "language": "en",
+      "canonical": "SDA",
+      "readings": [
+        "S D A"
+      ],
+      "term_id": "source_acronym_sda_en"
+    },
+    {
+      "language": "en",
+      "canonical": "MISO",
+      "readings": [
+        "M I S O"
+      ],
+      "term_id": "source_acronym_miso_en"
+    },
+    {
+      "language": "en",
+      "canonical": "MOSI",
+      "readings": [
+        "M O S I"
+      ],
+      "term_id": "source_acronym_mosi_en"
+    },
+    {
+      "language": "en",
+      "canonical": "CS",
+      "readings": [
+        "C S"
+      ],
+      "term_id": "source_acronym_cs_en"
+    },
+    {
+      "language": "en",
+      "canonical": "SS",
+      "readings": [
+        "S S"
+      ],
+      "term_id": "source_acronym_ss_en"
+    },
+    {
+      "language": "en",
+      "canonical": "TTL",
+      "readings": [
+        "T T L"
+      ],
+      "term_id": "source_acronym_ttl_en"
+    },
+    {
+      "language": "en",
+      "canonical": "ECL",
+      "readings": [
+        "E C L"
+      ],
+      "term_id": "source_acronym_ecl_en"
+    },
+    {
+      "language": "en",
+      "canonical": "FRA",
+      "readings": [
+        "F R A"
+      ],
+      "term_id": "source_acronym_fra_en"
+    },
+    {
+      "language": "en",
+      "canonical": "AFG",
+      "readings": [
+        "A F G"
+      ],
+      "term_id": "source_acronym_afg_en"
+    },
+    {
+      "language": "en",
+      "canonical": "AM",
+      "readings": [
+        "A M"
+      ],
+      "term_id": "source_acronym_am_en"
+    },
+    {
+      "language": "en",
+      "canonical": "FM",
+      "readings": [
+        "F M"
+      ],
+      "term_id": "source_acronym_fm_en"
+    },
+    {
+      "language": "en",
+      "canonical": "PM",
+      "readings": [
+        "P M"
+      ],
+      "term_id": "source_acronym_pm_en"
+    },
+    {
+      "language": "en",
+      "canonical": "FSK",
+      "readings": [
+        "F S K"
+      ],
+      "term_id": "source_acronym_fsk_en"
+    },
+    {
+      "language": "en",
+      "canonical": "ASCII",
+      "readings": [
+        "A S C I I"
+      ],
+      "term_id": "source_acronym_ascii_en"
+    },
+    {
+      "language": "en",
+      "canonical": "XY",
+      "readings": [
+        "X Y"
+      ],
+      "term_id": "source_acronym_xy_en"
+    },
+    {
+      "language": "zh",
+      "canonical": "平均值",
+      "readings": [
+        "平均值"
+      ],
+      "term_id": "source_zh_mean_value"
+    }
+  ],
+  "scope": "Canonical and preapproved readings only. No example/reference transcripts, evaluator equivalents, targets, task or source semantics."
+}

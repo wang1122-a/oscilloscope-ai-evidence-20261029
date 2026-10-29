@@ -1,0 +1,152 @@
+[
+  {
+    "source_id": "ASR01",
+    "file_name": "model.pt",
+    "bytes": 936291369,
+    "sha256": "833ca2dcfdf8ec91bd4f31cfac36d6124e0c459074d5e909aec9cabe6204a3ea"
+  },
+  {
+    "source_id": "ASR02",
+    "file_name": "model.pt",
+    "bytes": 936365016,
+    "sha256": "bd10cc74cd42845714692b4916500a3f8b275bcadffa28e5ea152dc5df3a7379"
+  },
+  {
+    "source_id": "ASR03",
+    "file_name": "first_predictions.jsonl",
+    "bytes": 34264832,
+    "sha256": "75773c96928ec48988e8ed6845cdb543505c29f1fdd751d61b0ee6f1bed51ecf"
+  },
+  {
+    "source_id": "ASR04",
+    "file_name": "first_predictions.jsonl",
+    "bytes": 33655739,
+    "sha256": "b51cf763dce3f9460c91b3125897a2b2f7bccca3b816e63f162e59a73a947199"
+  },
+  {
+    "source_id": "ASR05",
+    "file_name": "first_per_item.json",
+    "bytes": 30836051,
+    "sha256": "d9c86600cbdca53600fca780a247016b24af6c1ffb18b3f198978fa01c70b02e"
+  },
+  {
+    "source_id": "ASR06",
+    "file_name": "first_per_item.json",
+    "bytes": 30807642,
+    "sha256": "8c32c58f896db78ba5add39463b574b2d013299697753a817100945c20e86a76"
+  },
+  {
+    "source_id": "ASR07",
+    "file_name": "references_v2.jsonl",
+    "bytes": 3370948,
+    "sha256": "c94e4bc97baf33acbb0ef6555720f089875cad9a009867d567f003f54e1c7a33"
+  },
+  {
+    "source_id": "ASR08",
+    "file_name": "terms_prepared_v4_1_4_20261021.json",
+    "bytes": 2703322,
+    "sha256": "64e67fdbe3dd531d6928262c21397f7ab0d70c875327e5eec665e8f8a2c47d33"
+  },
+  {
+    "source_id": "ASR09",
+    "file_name": "e3_training_config.json",
+    "bytes": 1923,
+    "sha256": "5566974d800b30f0133287994a4dd6fbf2e9c9222caf587e6adcb3da7b7d7a1b"
+  },
+  {
+    "source_id": "ASR10",
+    "file_name": "e3_completed_run_report.json",
+    "bytes": 1635,
+    "sha256": "cbadd75cf72cc096dce590bb6f8013b522e030f02ae3d51b2f0e9bebe430fd31"
+  },
+  {
+    "source_id": "ASR11",
+    "file_name": "metrics.json",
+    "bytes": 9848,
+    "sha256": "8d557412237b0cf655291134408a380e12d9551a6b6f4abf9f4ab082b6c1b8ec"
+  },
+  {
+    "source_id": "ASR12",
+    "file_name": "first_predictions.jsonl",
+    "bytes": 56722845,
+    "sha256": "e17c72cbb96ce1b99990c8376bb5e8b98d97588ae3fa4c3c6ff77fb1cd0c3f90"
+  },
+  {
+    "source_id": "ASR13",
+    "file_name": "first_per_item.json",
+    "bytes": 30851657,
+    "sha256": "951aacfd351cbea4f7f3ddb121b1ecca70acad4637be8047a6224e04927e99db"
+  },
+  {
+    "source_id": "ASR14",
+    "file_name": "G2.json",
+    "bytes": 1023,
+    "sha256": "8f35e58a9761d48c2a34370a603e84aadb2617cef342e678d9717055d99d1fd5"
+  },
+  {
+    "source_id": "ASR15",
+    "file_name": "recognition_lexicon_v1.json",
+    "bytes": 33809,
+    "sha256": "ed7d6a6558979b0b8ed187a6fd3adae26db5a3b421e6ea249d050662a5cc8b8d"
+  },
+  {
+    "source_id": "ASR16",
+    "file_name": "retrieval_v5.py",
+    "bytes": 7556,
+    "sha256": "561c02b508b92e23e14dd3e8c44b28daa0bbb1105a4711dcf7532002e0bf14b3"
+  },
+  {
+    "source_id": "ASR17",
+    "file_name": "sensevoice_backend.py",
+    "bytes": 7025,
+    "sha256": "63c223bfd175789e64d3f04c376f79d0784f14d882093c1bad278b2debb2482d"
+  },
+  {
+    "source_id": "INT01",
+    "file_name": "VERSION_AND_METRICS.md",
+    "bytes": 1159,
+    "sha256": "12b862f15efef19fb5eaadba1b7187595d87f2a59d16d068eb923de91036a580"
+  },
+  {
+    "source_id": "AND01",
+    "file_name": "README.md",
+    "bytes": 1260,
+    "sha256": "2b2b9f3945ca09e42fa34ec37dc961eb741afffe0741dbf90046ba98f2f5a95c"
+  },
+  {
+    "source_id": "AND02",
+    "file_name": "V1.3.0-ACCEPTANCE.md",
+    "bytes": 7919,
+    "sha256": "41898f8aca81f22e09b82222f0e24cfa113145c64c4283b5afe92f2603aee70e"
+  },
+  {
+    "source_id": "AND03",
+    "file_name": "OscilloscopeControlService.java",
+    "bytes": 17628,
+    "sha256": "d11d9ec8997e2ef7a342b2ea1be36e685bc96538c5a8e58b866ec53beec68467"
+  },
+  {
+    "source_id": "AND04",
+    "file_name": "SpeechRuntime.java",
+    "bytes": 7749,
+    "sha256": "d314477258ded5514f8ec6ab6a6f25701b606ca167dc9501adca536f2a6332d8"
+  },
+  {
+    "source_id": "AND05",
+    "file_name": "StrictModelParser.java",
+    "bytes": 2572,
+    "sha256": "4bf29405d604a191092c92ee329949c824a38fab935b3a303bce358700e4b409"
+  },
+  {
+    "source_id": "AND06",
+    "file_name": "build.gradle.kts",
+    "bytes": 1833,
+    "sha256": "33a88e51ac3c1ef37432006e651f9140fd3a80f9c36636b45e98cdd4890d0b89"
+  },
+  {
+    "source_id": "LIC01",
+    "file_name": "THIRD_PARTY_TTS.md",
+    "bytes": 2717,
+    "sha256": "800983ebd6fb95a6b9c674b500f1c4f9d6a77b57ac8e93ccdfb73988d8c4a502"
+  }
+]

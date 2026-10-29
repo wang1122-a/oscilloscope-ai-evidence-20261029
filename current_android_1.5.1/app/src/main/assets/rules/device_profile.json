@@ -1,0 +1,33 @@
+{
+  "profile_name": "default_unknown",
+  "capabilities": {
+    "channel_count": null,
+    "has_la": null,
+    "selectable_termination": null,
+    "AUTOSET_ENABLE_AVAILABLE": false,
+    "SAVE_IMAGE_LAYOUT_AVAILABLE": false
+  },
+  "Acquire": {},
+  "DisplayAndXY": {},
+  "Horizontal": {
+    "horizontal_scale_min_s": null,
+    "horizontal_scale_max_s": 1000,
+    "recordlength_values": [],
+    "delay_time_min_s": null,
+    "delay_time_max_s": null
+  },
+  "source_basis": [
+    "原始总 SCPI 指令表 Horizontal sheet 仅给出跨机型范围和常见记录长度，项目内未找到具体机型能力配置",
+    "原始总 SCPI 指令表 Vertical sheet 未给出具体设备的通道数量、垂直档位范围/档位集合、位置范围、带宽档位和阻抗能力"
+  ],
+  "Vertical": {
+    "channel_count": null,
+    "vertical_scale_min_v_per_div": null,
+    "vertical_scale_max_v_per_div": null,
+    "vertical_scale_values": [],
+    "vertical_position_min_div": null,
+    "vertical_position_max_div": null,
+    "bandwidth_values_hz": [],
+    "termination_supported": null
+  }
+}

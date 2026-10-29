@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "normalizer_id": "evidence_bound_scpi_output_normalizer_v1",
+  "policy": {
+    "deterministic": true,
+    "idempotent": true,
+    "one_to_one_only": true,
+    "semantic_preserving_only": true,
+    "gold_access_forbidden": true,
+    "natural_language_access_forbidden": true,
+    "post_normalization_schema_validation_required": true,
+    "integer_conversion_range": "signed_64_bit",
+    "unknown_or_ambiguous_action": "abstain"
+  },
+  "evidence_assets": {
+    "command_spec": {
+      "path": "code/config/scpi_command_spec.json",
+      "sha256": "0BE8BA515455BD9FFDB4D664D8F718D3B43C5DE2DB9DA73DB4A9C693B0198470"
+    },
+    "runtime_catalog": {
+      "path": "code/config/scpi_command_catalog.json",
+      "sha256": "080B7C4CBE28F51A2F5550C0AC59DD3893473C6731B9BF7462DB34317A3468F7"
+    },
+    "constraints": {
+      "path": "code/config/scpi_constraints.json",
+      "sha256": "0474BAFAF63FDC4BE72D25F650F807BAD4CCA8840A04B6A9640ACE8DA33B4AC0"
+    },
+    "formal_aliases": {
+      "path": "code/config/scpi_aliases.json",
+      "sha256": "D399B684C81259F9FE31E3D98BB105F7179C0BCF227AE11BED470A917B0772E0"
+    },
+    "units": {
+      "path": "code/config/scpi_units.json",
+      "sha256": "EFB415352A08CD4F11D39D4567351E7AA1A6AE2EE5A26498580365838B6330AE"
+    }
+  },
+  "rules": [
+    {
+      "rule_id": "SCPI-NORM-COMMAND-001",
+      "correction_type": "unique_scpi_command_mnemonic_canonicalization",
+      "field": "SCPIcommand",
+      "evidence_source": "runtime_catalog",
+      "evidence_path": "code/config/scpi_command_catalog.json#/commands",
+      "semantic_preserving": true,
+      "confidence_policy": "exactly_one_scpi_mnemonic_match_with_exact_intent; case_only_variants_are rewritten_to_the_unique_catalog_spelling",
+      "enabled": true
+    },
+    {
+      "rule_id": "SCPI-NORM-PARAM-ALIAS-001",
+      "correction_type": "explicit_command_scoped_parameter_alias",
+      "field": "SCPIparams",
+      "evidence_source": "formal_aliases",
+      "evidence_path": "code/config/scpi_aliases.json#/parameter_aliases",
+      "semantic_preserving": true,
+      "confidence_policy": "exactly_one_explicit_scalar_target_for_exact_command",
+      "enabled": true
+    },
+    {
+      "rule_id": "SCPI-NORM-PARAM-ENUMCASE-001",
+      "correction_type": "unique_enum_case_canonicalization",
+      "field": "SCPIparams",
+      "evidence_source": "constraints",
+      "evidence_path": "code/config/scpi_constraints.json#/commands/*/enum_values",
+      "semantic_preserving": true,
+      "confidence_policy": "exactly_one_casefold_equal_formal_enum_value; rewrite_to_the_unique_command_scoped_constraint_spelling",
+      "enabled": true
+    },
+    {
+      "rule_id": "SCPI-NORM-PARAM-INTEGER-001",
+      "correction_type": "lossless_integer_json_type_conversion",
+      "field": "SCPIparams",
+      "evidence_source": "constraints",
+      "evidence_path": "code/config/scpi_constraints.json#/commands/*/parameter_type",
+      "semantic_preserving": true,
+      "confidence_policy": "canonical_decimal_integer_lexeme_within_signed_64_bit_and_post_schema_valid",
+      "enabled": true
+    },
+    {
+      "rule_id": "SCPI-NORM-PARAM-UNIT-001",
+      "correction_type": "lossless_evidence_backed_unit_conversion",
+      "field": "SCPIparams",
+      "evidence_source": "constraints_and_units",
+      "evidence_path": "code/config/scpi_constraints.json#/commands/*/parameter_type + code/config/scpi_units.json",
+      "semantic_preserving": true,
+      "confidence_policy": "full_string_numeric_unit_match_unique_dimension_exact_decimal_roundtrip_and_post_schema_valid",
+      "enabled": true
+    },
+    {
+      "rule_id": "SCPI-NORM-PARAM-QUOTE-001",
+      "correction_type": "duplicate_ascii_quote_wrapper_normalization",
+      "field": "SCPIparams",
+      "evidence_source": "constraints",
+      "evidence_path": "code/config/scpi_constraints.json#/commands/*/requires_ascii_quotes",
+      "semantic_preserving": true,
+      "confidence_policy": "one_redundant_outer_ascii_quote_pair_and_exact_formal_enum_target",
+      "enabled": true
+    },
+    {
+      "rule_id": "SCPI-NORM-QUERY-EMPTY-001",
+      "correction_type": "query_empty_parameter_representation",
+      "field": "SCPIparams",
+      "evidence_source": "runtime_catalog_and_constraints",
+      "evidence_path": "code/config/scpi_command_catalog.json#/commands/*/query_or_set + code/config/scpi_constraints.json#/commands/*/parameter_type",
+      "semantic_preserving": true,
+      "confidence_policy": "exact_query_operation_and_only_empty_string_or_stringified_empty_object",
+      "enabled": true
+    }
+  ]
+}

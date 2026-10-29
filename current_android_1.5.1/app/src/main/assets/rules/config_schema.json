@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "required_config_files": [
+    "scpi_command_catalog.json",
+    "scpi_constraints.json",
+    "scpi_aliases.json",
+    "scpi_units.json",
+    "device_profile.json"
+  ],
+  "company_fields": [
+    "intent",
+    "SCPIcommand",
+    "SCPIparams"
+  ],
+  "parameter_types": [
+    "query",
+    "integer",
+    "float",
+    "number",
+    "enum",
+    "boolean",
+    "string",
+    "points",
+    "time",
+    "time_per_div",
+    "voltage",
+    "voltage_per_div",
+    "frequency",
+    "percentage",
+    "angle",
+    "frequency_or_enum",
+    "divisions",
+    "probe_ratio"
+  ]
+}

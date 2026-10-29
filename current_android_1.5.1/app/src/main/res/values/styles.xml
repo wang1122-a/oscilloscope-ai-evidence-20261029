@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.Text2Scpi" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">@color/navy</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:navigationBarColor">@color/navy</item>
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

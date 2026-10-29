@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "equivalent_parameter_types": [
+    ["boolean", "enum"],
+    ["divisions", "number"],
+    ["voltage_per_div", "number"],
+    ["probe_ratio", "number"],
+    ["percentage", "integer"],
+    ["time", "number"],
+    ["points", "integer"],
+    ["time_per_div", "number"],
+    ["frequency_or_enum", "enum"]
+  ],
+  "command_aliases": {
+    "CH1:PROBE:RATIO": "CH1:PROBE:GAIN",
+    "CH2:PROBE:RATIO": "CH2:PROBE:GAIN",
+    "CH3:PROBE:RATIO": "CH3:PROBE:GAIN",
+    "CH4:PROBE:RATIO": "CH4:PROBE:GAIN",
+    "CH1:STATE": "SELECT:CH1",
+    "CH2:STATE": "SELECT:CH2",
+    "CH3:STATE": "SELECT:CH3",
+    "CH4:STATE": "SELECT:CH4"
+  },
+  "protected_exact_commands": ["*RST", "*SAV", "*RCL"],
+  "protected_command_prefixes": [
+    "CALIBRATE",
+    "DIGITAL:PROBE:CALIBRATE",
+    "SAVE:",
+    "RECALL:",
+    "REF:SAVE:",
+    "FILESYSTEM:",
+    "FIRMWARE:",
+    "FACTORY:",
+    "SERVICE:",
+    "LANGUAGE"
+  ],
+  "blocked_parameter_values": {
+    "CH1:BANDWIDTH": ["FULL"],
+    "CH2:BANDWIDTH": ["FULL"],
+    "CH3:BANDWIDTH": ["FULL"],
+    "CH4:BANDWIDTH": ["FULL"]
+  },
+  "contextual_unit_aliases": {
+    "voltage_per_div": {
+      "V": "V/div",
+      "mV": "mV/div",
+      "uV": "uV每格",
+      "μV": "μV/div",
+      "µV": "μV/div",
+      "伏": "伏每格",
+      "毫伏": "毫伏每格",
+      "微伏": "微伏每格"
+    }
+  },
+  "ads10000a_profile": {
+    "manufacturer": "OWON",
+    "model": "ADS10000A",
+    "profile_name": "OWON_ADS10000A_documented_common_v1",
+    "capabilities": {
+      "channel_count": 4
+    },
+    "Horizontal": {
+      "horizontal_scale_min_s": 5e-10,
+      "horizontal_scale_max_s": 1000
+    },
+    "Vertical": {
+      "channel_count": 4
+    }
+  }
+}

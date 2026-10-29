@@ -1,0 +1,762 @@
+{
+  "intent_aliases": {
+    "ACQ_?": "ACQUIRE_query",
+    "ACQ_set": "ACQUIRE_set",
+    "DISPLAY_?": "DISPLAYANDXY_query",
+    "DISPLAY_set": "DISPLAYANDXY_set",
+    "HORIZONTAL_?": "HORIZONTAL_query",
+    "VERTICAL_?": "VERTICAL_query"
+  },
+  "parameter_aliases": {
+    "DISplay:XY:STATE": {
+      "ON": "TRIGgered"
+    },
+    "AUTOSet:ENAble": {
+      "0": "OFF",
+      "1": "ON"
+    }
+  },
+  "module_keywords": {
+    "ACQ": [
+      "采集",
+      "采集模块",
+      "平均次数",
+      "采集模式",
+      "快速采集"
+    ],
+    "DisplayAndXY": [
+      "显示",
+      "显示模块",
+      "透明度",
+      "XY",
+      "波形显示"
+    ],
+    "Horizontal": [
+      "水平",
+      "水平模块",
+      "横向",
+      "主时基",
+      "水平时基",
+      "水平延迟",
+      "存储深度",
+      "记录长度",
+      "水平参考",
+      "滚动模式"
+    ],
+    "Vertical": [
+      "垂直",
+      "模拟通道",
+      "探头倍率",
+      "通道耦合",
+      "垂直档位",
+      "通道阻抗",
+      "通道标签"
+    ]
+  },
+  "command_aliases": [
+    {
+      "SCPIcommand": "ACQuire",
+      "aliases": [
+        "采集参数",
+        "采集设置"
+      ]
+    },
+    {
+      "SCPIcommand": "ACQuire:MODe",
+      "aliases": [
+        "采集模式",
+        "采样模式"
+      ]
+    },
+    {
+      "SCPIcommand": "ACQuire:NUMAVg",
+      "aliases": [
+        "平均次数",
+        "采集平均次数"
+      ]
+    },
+    {
+      "SCPIcommand": "ACQuire:FASTAcq:STATE",
+      "aliases": [
+        "快速采集"
+      ]
+    },
+    {
+      "SCPIcommand": "DISplay",
+      "aliases": [
+        "显示设置",
+        "显示参数"
+      ]
+    },
+    {
+      "SCPIcommand": "DISplay:TRANsparency:WINDow",
+      "aliases": [
+        "透明度",
+        "窗口透明度"
+      ]
+    },
+    {
+      "SCPIcommand": "DISplay:XY:STATE",
+      "aliases": [
+        "XY模式",
+        "XY显示"
+      ]
+    },
+    {
+      "SCPIcommand": "HORizontal:HREFerence:MODE",
+      "aliases": [
+        "时基扩展参考点",
+        "水平参考模式",
+        "屏幕中心扩展",
+        "水平参考",
+        "扩展参考"
+      ]
+    },
+    {
+      "SCPIcommand": "HORizontal:RECOrdlength",
+      "aliases": [
+        "存储深度",
+        "记录长度",
+        "记录点数",
+        "采样点数"
+      ]
+    },
+    {
+      "SCPIcommand": "HORizontal:DELay:TIMe",
+      "aliases": [
+        "水平延迟时间",
+        "delay time",
+        "水平延时",
+        "水平位置延迟",
+        "水平位置偏移",
+        "横向位置"
+      ]
+    },
+    {
+      "SCPIcommand": "HORizontal:SCAle",
+      "aliases": [
+        "主时基",
+        "水平时基",
+        "水平每格时间",
+        "时基档位"
+      ]
+    },
+    {
+      "SCPIcommand": "HORizontal:FILTer",
+      "aliases": [
+        "滤波插值",
+        "插值滤波",
+        "滤波器类型"
+      ]
+    },
+    {
+      "SCPIcommand": "HORizontal:ROLL:MODE",
+      "aliases": [
+        "滚动模式",
+        "滚动显示模式"
+      ]
+    },
+    {
+      "SCPIcommand": "CH1",
+      "aliases": [
+        "通道1完整配置",
+        "第1路模拟通道信息"
+      ]
+    },
+    {
+      "SCPIcommand": "CH1:BANdwidth",
+      "aliases": [
+        "通道1带宽",
+        "第1路带宽限制"
+      ]
+    },
+    {
+      "SCPIcommand": "CH1:COUPling",
+      "aliases": [
+        "通道1耦合",
+        "第1路耦合方式"
+      ]
+    },
+    {
+      "SCPIcommand": "CH1:INVert",
+      "aliases": [
+        "通道1反向",
+        "第1路极性反转"
+      ]
+    },
+    {
+      "SCPIcommand": "CH1:LABel:DISplay",
+      "aliases": [
+        "通道1标签显示",
+        "第1路标签开关"
+      ]
+    },
+    {
+      "SCPIcommand": "CH1:LABel",
+      "aliases": [
+        "通道1标签名称",
+        "第1路标签内容"
+      ]
+    },
+    {
+      "SCPIcommand": "CH1:POSition",
+      "aliases": [
+        "通道1垂直位置",
+        "第1路上下位置"
+      ]
+    },
+    {
+      "SCPIcommand": "CH1:SCALe",
+      "aliases": [
+        "通道1垂直档位",
+        "第1路每格电压"
+      ]
+    },
+    {
+      "SCPIcommand": "CH1:TERmination",
+      "aliases": [
+        "通道1阻抗",
+        "第1路端接"
+      ]
+    },
+    {
+      "SCPIcommand": "CH1:YUNits",
+      "aliases": [
+        "通道1单位",
+        "第1路纵轴单位"
+      ]
+    },
+    {
+      "SCPIcommand": "CH1:PRObe:GAIN",
+      "aliases": [
+        "通道1探头倍率",
+        "第1路探头倍数"
+      ]
+    },
+    {
+      "SCPIcommand": "SELect:CH1",
+      "aliases": [
+        "通道1显示",
+        "第1路波形开关"
+      ]
+    },
+    {
+      "SCPIcommand": "CH2",
+      "aliases": [
+        "通道2完整配置",
+        "第2路模拟通道信息"
+      ]
+    },
+    {
+      "SCPIcommand": "CH2:BANdwidth",
+      "aliases": [
+        "通道2带宽",
+        "第2路带宽限制"
+      ]
+    },
+    {
+      "SCPIcommand": "CH2:COUPling",
+      "aliases": [
+        "通道2耦合",
+        "第2路耦合方式"
+      ]
+    },
+    {
+      "SCPIcommand": "CH2:INVert",
+      "aliases": [
+        "通道2反向",
+        "第2路极性反转"
+      ]
+    },
+    {
+      "SCPIcommand": "CH2:LABel:DISplay",
+      "aliases": [
+        "通道2标签显示",
+        "第2路标签开关"
+      ]
+    },
+    {
+      "SCPIcommand": "CH2:LABel",
+      "aliases": [
+        "通道2标签名称",
+        "第2路标签内容"
+      ]
+    },
+    {
+      "SCPIcommand": "CH2:POSition",
+      "aliases": [
+        "通道2垂直位置",
+        "第2路上下位置"
+      ]
+    },
+    {
+      "SCPIcommand": "CH2:SCALe",
+      "aliases": [
+        "通道2垂直档位",
+        "第2路每格电压"
+      ]
+    },
+    {
+      "SCPIcommand": "CH2:TERmination",
+      "aliases": [
+        "通道2阻抗",
+        "第2路端接"
+      ]
+    },
+    {
+      "SCPIcommand": "CH2:YUNits",
+      "aliases": [
+        "通道2单位",
+        "第2路纵轴单位"
+      ]
+    },
+    {
+      "SCPIcommand": "CH2:PRObe:GAIN",
+      "aliases": [
+        "通道2探头倍率",
+        "第2路探头倍数"
+      ]
+    },
+    {
+      "SCPIcommand": "SELect:CH2",
+      "aliases": [
+        "通道2显示",
+        "第2路波形开关"
+      ]
+    },
+    {
+      "SCPIcommand": "CH3",
+      "aliases": [
+        "通道3完整配置",
+        "第3路模拟通道信息"
+      ]
+    },
+    {
+      "SCPIcommand": "CH3:BANdwidth",
+      "aliases": [
+        "通道3带宽",
+        "第3路带宽限制"
+      ]
+    },
+    {
+      "SCPIcommand": "CH3:COUPling",
+      "aliases": [
+        "通道3耦合",
+        "第3路耦合方式"
+      ]
+    },
+    {
+      "SCPIcommand": "CH3:INVert",
+      "aliases": [
+        "通道3反向",
+        "第3路极性反转"
+      ]
+    },
+    {
+      "SCPIcommand": "CH3:LABel:DISplay",
+      "aliases": [
+        "通道3标签显示",
+        "第3路标签开关"
+      ]
+    },
+    {
+      "SCPIcommand": "CH3:LABel",
+      "aliases": [
+        "通道3标签名称",
+        "第3路标签内容"
+      ]
+    },
+    {
+      "SCPIcommand": "CH3:POSition",
+      "aliases": [
+        "通道3垂直位置",
+        "第3路上下位置"
+      ]
+    },
+    {
+      "SCPIcommand": "CH3:SCALe",
+      "aliases": [
+        "通道3垂直档位",
+        "第3路每格电压"
+      ]
+    },
+    {
+      "SCPIcommand": "CH3:TERmination",
+      "aliases": [
+        "通道3阻抗",
+        "第3路端接"
+      ]
+    },
+    {
+      "SCPIcommand": "CH3:YUNits",
+      "aliases": [
+        "通道3单位",
+        "第3路纵轴单位"
+      ]
+    },
+    {
+      "SCPIcommand": "CH3:PRObe:GAIN",
+      "aliases": [
+        "通道3探头倍率",
+        "第3路探头倍数"
+      ]
+    },
+    {
+      "SCPIcommand": "SELect:CH3",
+      "aliases": [
+        "通道3显示",
+        "第3路波形开关"
+      ]
+    },
+    {
+      "SCPIcommand": "CH4",
+      "aliases": [
+        "通道4完整配置",
+        "第4路模拟通道信息"
+      ]
+    },
+    {
+      "SCPIcommand": "CH4:BANdwidth",
+      "aliases": [
+        "通道4带宽",
+        "第4路带宽限制"
+      ]
+    },
+    {
+      "SCPIcommand": "CH4:COUPling",
+      "aliases": [
+        "通道4耦合",
+        "第4路耦合方式"
+      ]
+    },
+    {
+      "SCPIcommand": "CH4:INVert",
+      "aliases": [
+        "通道4反向",
+        "第4路极性反转"
+      ]
+    },
+    {
+      "SCPIcommand": "CH4:LABel:DISplay",
+      "aliases": [
+        "通道4标签显示",
+        "第4路标签开关"
+      ]
+    },
+    {
+      "SCPIcommand": "CH4:LABel",
+      "aliases": [
+        "通道4标签名称",
+        "第4路标签内容"
+      ]
+    },
+    {
+      "SCPIcommand": "CH4:POSition",
+      "aliases": [
+        "通道4垂直位置",
+        "第4路上下位置"
+      ]
+    },
+    {
+      "SCPIcommand": "CH4:SCALe",
+      "aliases": [
+        "通道4垂直档位",
+        "第4路每格电压"
+      ]
+    },
+    {
+      "SCPIcommand": "CH4:TERmination",
+      "aliases": [
+        "通道4阻抗",
+        "第4路端接"
+      ]
+    },
+    {
+      "SCPIcommand": "CH4:YUNits",
+      "aliases": [
+        "通道4单位",
+        "第4路纵轴单位"
+      ]
+    },
+    {
+      "SCPIcommand": "CH4:PRObe:GAIN",
+      "aliases": [
+        "通道4探头倍率",
+        "第4路探头倍数"
+      ]
+    },
+    {
+      "SCPIcommand": "SELect:CH4",
+      "aliases": [
+        "通道4显示",
+        "第4路波形开关"
+      ]
+    },
+    {
+      "SCPIcommand": "SELect",
+      "aliases": [
+        "通道显示状态汇总",
+        "已开启通道",
+        "当前通道选择信息"
+      ]
+    },
+    {
+      "SCPIcommand": "SELect:MATH",
+      "aliases": [
+        "数学通道显示",
+        "MATH显示"
+      ]
+    },
+    {
+      "SCPIcommand": "SELect:CONTROl",
+      "aliases": [
+        "当前控制通道",
+        "选中通道"
+      ]
+    }
+  ],
+  "enum_aliases": {
+    "ACQuire:MODe": {
+      "sample直采": "SAMPle",
+      "直采": "SAMPle",
+      "采样": "SAMPle",
+      "平均": "AVERage",
+      "峰值": "PEAK",
+      "高分辨率": "HIRes"
+    },
+    "ACQuire:FASTAcq:STATE": {
+      "打开快采": "ON",
+      "开启快采": "ON",
+      "快采高刷打开": "ON",
+      "关闭快采": "OFF",
+      "快采高刷关掉": "OFF"
+    },
+    "ACQuire:STATE": {
+      "开始采集": "RUN",
+      "进入运行": "RUN",
+      "停止采集": "STOP",
+      "停下来": "STOP"
+    },
+    "HORizontal:HREFerence:MODE": {
+      "屏幕中心": "CENTer",
+      "中心": "CENTer",
+      "画面中心": "CENTer",
+      "触发点": "TRIG",
+      "触发位置": "TRIG"
+    },
+    "HORizontal:FILTer": {
+      "自动": "AUTO",
+      "正弦插值": "SINX",
+      "SINX/X": "SINX",
+      "线性": "LINear"
+    },
+    "HORizontal:ROLL:MODE": {
+      "停止自动滚动": "OFF",
+      "关闭自动滚动": "OFF",
+      "不要自动滚动": "OFF",
+      "取消自动滚动": "OFF",
+      "别开启滚动": "OFF",
+      "保持自动滚动": "AUTO",
+      "滚动模式设为自动": "AUTO",
+      "自动": "AUTO",
+      "关闭": "OFF",
+      "关掉": "OFF"
+    },
+    "DISplay:XY:STATE": {
+      "打开": "TRIGgered",
+      "开启": "TRIGgered",
+      "关闭": "OFF",
+      "关掉": "OFF"
+    },
+    "DISplay:PERSistence": {
+      "一秒": "1",
+      "二秒": "2",
+      "两秒": "2",
+      "五秒": "5",
+      "清除": "CLEAR",
+      "清空": "CLEAR",
+      "无限": "INFInite",
+      "关闭余辉": "OFF"
+    },
+    "CH1:BANdwidth": {
+      "全带宽": "FULl",
+      "FULL": "FULl"
+    },
+    "CH1:COUPling": {
+      "交流": "AC",
+      "直流": "DC",
+      "接地": "GND"
+    },
+    "CH1:INVert": {
+      "开启反向": "ON",
+      "打开反向": "ON",
+      "关闭反向": "OFF",
+      "取消反向": "OFF"
+    },
+    "CH1:LABel:DISplay": {
+      "显示标签": "ON",
+      "打开标签": "ON",
+      "隐藏标签": "OFF",
+      "关闭标签": "OFF"
+    },
+    "CH1:TERmination": {
+      "50欧": "FIFty",
+      "50Ω": "FIFty",
+      "一兆欧": "MEG",
+      "1MΩ": "MEG",
+      "高阻": "MEG"
+    },
+    "CH1:YUNits": {
+      "电压单位": "V",
+      "电流单位": "A",
+      "功率单位": "W",
+      "自定义单位": "U"
+    },
+    "SELect:CH1": {
+      "显示": "ON",
+      "打开": "ON",
+      "开启": "ON",
+      "隐藏": "OFF",
+      "关闭": "OFF"
+    },
+    "CH2:BANdwidth": {
+      "全带宽": "FULl",
+      "FULL": "FULl"
+    },
+    "CH2:COUPling": {
+      "交流": "AC",
+      "直流": "DC",
+      "接地": "GND"
+    },
+    "CH2:INVert": {
+      "开启反向": "ON",
+      "打开反向": "ON",
+      "关闭反向": "OFF",
+      "取消反向": "OFF"
+    },
+    "CH2:LABel:DISplay": {
+      "显示标签": "ON",
+      "打开标签": "ON",
+      "隐藏标签": "OFF",
+      "关闭标签": "OFF"
+    },
+    "CH2:TERmination": {
+      "50欧": "FIFty",
+      "50Ω": "FIFty",
+      "一兆欧": "MEG",
+      "1MΩ": "MEG",
+      "高阻": "MEG"
+    },
+    "CH2:YUNits": {
+      "电压单位": "V",
+      "电流单位": "A",
+      "功率单位": "W",
+      "自定义单位": "U"
+    },
+    "SELect:CH2": {
+      "显示": "ON",
+      "打开": "ON",
+      "开启": "ON",
+      "隐藏": "OFF",
+      "关闭": "OFF"
+    },
+    "CH3:BANdwidth": {
+      "全带宽": "FULl",
+      "FULL": "FULl"
+    },
+    "CH3:COUPling": {
+      "交流": "AC",
+      "直流": "DC",
+      "接地": "GND"
+    },
+    "CH3:INVert": {
+      "开启反向": "ON",
+      "打开反向": "ON",
+      "关闭反向": "OFF",
+      "取消反向": "OFF"
+    },
+    "CH3:LABel:DISplay": {
+      "显示标签": "ON",
+      "打开标签": "ON",
+      "隐藏标签": "OFF",
+      "关闭标签": "OFF"
+    },
+    "CH3:TERmination": {
+      "50欧": "FIFty",
+      "50Ω": "FIFty",
+      "一兆欧": "MEG",
+      "1MΩ": "MEG",
+      "高阻": "MEG"
+    },
+    "CH3:YUNits": {
+      "电压单位": "V",
+      "电流单位": "A",
+      "功率单位": "W",
+      "自定义单位": "U"
+    },
+    "SELect:CH3": {
+      "显示": "ON",
+      "打开": "ON",
+      "开启": "ON",
+      "隐藏": "OFF",
+      "关闭": "OFF"
+    },
+    "CH4:BANdwidth": {
+      "全带宽": "FULl",
+      "FULL": "FULl"
+    },
+    "CH4:COUPling": {
+      "交流": "AC",
+      "直流": "DC",
+      "接地": "GND"
+    },
+    "CH4:INVert": {
+      "开启反向": "ON",
+      "打开反向": "ON",
+      "关闭反向": "OFF",
+      "取消反向": "OFF"
+    },
+    "CH4:LABel:DISplay": {
+      "显示标签": "ON",
+      "打开标签": "ON",
+      "隐藏标签": "OFF",
+      "关闭标签": "OFF"
+    },
+    "CH4:TERmination": {
+      "50欧": "FIFty",
+      "50Ω": "FIFty",
+      "一兆欧": "MEG",
+      "1MΩ": "MEG",
+      "高阻": "MEG"
+    },
+    "CH4:YUNits": {
+      "电压单位": "V",
+      "电流单位": "A",
+      "功率单位": "W",
+      "自定义单位": "U"
+    },
+    "SELect:CH4": {
+      "显示": "ON",
+      "打开": "ON",
+      "开启": "ON",
+      "隐藏": "OFF",
+      "关闭": "OFF"
+    },
+    "SELect:MATH": {
+      "显示数学通道": "ON",
+      "打开MATH": "ON",
+      "隐藏数学通道": "OFF",
+      "关闭MATH": "OFF"
+    },
+    "SELect:CONTROl": {
+      "通道1": "CH1",
+      "通道2": "CH2",
+      "通道3": "CH3",
+      "通道4": "CH4",
+      "CH1": "CH1",
+      "CH2": "CH2",
+      "CH3": "CH3",
+      "CH4": "CH4"
+    }
+  }
+}

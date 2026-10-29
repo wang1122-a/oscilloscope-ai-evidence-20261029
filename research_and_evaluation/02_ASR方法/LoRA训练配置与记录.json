@@ -1,0 +1,51 @@
+{
+  "source_ids": [
+    "ASR09",
+    "ASR10"
+  ],
+  "config": {
+    "experiment": "E2-A-BF16",
+    "training_mode": "english_incremental",
+    "parent_experiment": "P3-1C",
+    "parent_checkpoint_sha256": "d8611a4d0c84e0e2a43043d63a24718febddca6bcaeb76a320ee3492d66d06ca",
+    "optimizer_steps_per_epoch": 2000,
+    "batch_size": 8,
+    "epochs": 3,
+    "zh_draw_probability": 0.8,
+    "en_draw_probability": 0.2,
+    "lr": 1e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.05,
+    "amp_dtype": "bf16",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.1,
+    "lora_target_modules": [
+      "linear_q_k_v",
+      "linear_out"
+    ]
+  },
+  "completed": {
+    "status": "COMPLETED_6000_UPDATES",
+    "total_steps": 6000,
+    "total_rows": 48000,
+    "main_consumed_language_draws": {
+      "zh": 38407,
+      "en": 9593
+    },
+    "counters": {
+      "attempted_batch_count": 6000,
+      "global_optimizer_step": 6000,
+      "finite_update_count": 6000,
+      "skipped_nonfinite_count": 0,
+      "consecutive_nonfinite_count": 0,
+      "consumed_sample_count": 48000,
+      "main_next_row": 48000,
+      "comp_next_row": 0,
+      "epoch": 2,
+      "sampler_position": 0,
+      "zh_draws": 38407,
+      "en_draws": 9593
+    }
+  }
+}

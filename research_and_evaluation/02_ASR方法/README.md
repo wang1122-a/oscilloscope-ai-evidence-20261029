@@ -1,0 +1,9 @@
+# 领域语音识别代表性实现
+
+提供与主评测记录关联的候选检索retrieval_v5.py、音频CTC核验sensevoice_backend.py、词典基础依赖notebook.py，以及固定专业词典和训练配置。源码按原快照保存，不启动新训练或新识别。
+
+retrieval_v5从固定词典产生候选；sensevoice_backend利用同次识别的音频帧计算CTC分数。notebook为原实现依赖，包含扩展记忆研究代码；主方案配置memory_mode=none，不能据此将额外记忆称为已采用功能。研究配置记录保留原冻结状态及其说明，运行完成情况以03_评测复核中的实际5620条结果为准。
+
+查看方法无需模型。执行模型推理还需原匹配微调权重、config.yaml、原tokenizer和am.mvn，以及PyTorch、FunASR、sentencepiece、PyYAML等依赖。这里只提供代表性方法模块与配置，不提供完整正式实验调度器或原始音频。直接重算已保存结果，请运行03_评测复核/复核ASR汇总.py；其仅依赖Python标准库。
+
+官方SenseVoiceSmall用于基础模型来源核验；原始基座与团队E3微调权重的SHA256在评测来源记录中分别登记。官方新下载文件不保证与历史已用资产逐字节相同。

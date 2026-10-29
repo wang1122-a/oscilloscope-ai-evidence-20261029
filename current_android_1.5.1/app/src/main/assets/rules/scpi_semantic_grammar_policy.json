@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "policy_id": "scpi-semantic-grammar-v1.1.4-rnd",
+  "normalization_rules": [
+    "utf8_strict",
+    "unicode_nfkc",
+    "newline_lf",
+    "collapse_horizontal_whitespace",
+    "trim_outer_whitespace",
+    "ascii_casefold_match_copy",
+    "preserve_scpi_punctuation",
+    "preserve_negation"
+  ],
+  "operation_terms": {
+    "query": [
+      "查询",
+      "查看",
+      "读取",
+      "获取",
+      "多少",
+      "是什么"
+    ],
+    "set": [
+      "设置",
+      "设为",
+      "调整",
+      "改为",
+      "切换到",
+      "切换为"
+    ],
+    "action": [
+      "执行",
+      "清除",
+      "重置",
+      "保存",
+      "使用当前"
+    ]
+  },
+  "negation_terms": {
+    "command_negation": [
+      "不要",
+      "别",
+      "禁止",
+      "无需执行"
+    ],
+    "uncertainty": [
+      "是否",
+      "能否",
+      "可不可以"
+    ],
+    "state_off": [
+      "关闭",
+      "关掉",
+      "禁用",
+      "停止"
+    ],
+    "state_on": [
+      "开启",
+      "打开",
+      "启用",
+      "开始",
+      "启动",
+      "运行"
+    ]
+  },
+  "number_grammar": {
+    "ascii_integer": "[+-]?(?:0|[1-9][0-9]*)",
+    "ascii_decimal": "[+-]?(?:0|[1-9][0-9]*)\\.[0-9]+",
+    "ascii_scientific": "[+-]?(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?[eE][+-]?[0-9]+",
+    "chinese_digits": {
+      "零": 0,
+      "一": 1,
+      "二": 2,
+      "两": 2,
+      "三": 3,
+      "四": 4,
+      "五": 5,
+      "六": 6,
+      "七": 7,
+      "八": 8,
+      "九": 9
+    },
+    "chinese_small_units": {
+      "十": 10,
+      "百": 100,
+      "千": 1000
+    },
+    "chinese_large_units": {
+      "万": 10000,
+      "亿": 100000000
+    },
+    "engineering_multipliers": {
+      "兆": {
+        "multiplier": 1000000,
+        "requires_formal_si_dimension_or_range_evidence": true
+      }
+    },
+    "path_identifier_prefixes": [
+      "CH",
+      "REF",
+      "AFG",
+      "MATH",
+      "FFT",
+      "FILTER",
+      "D",
+      "BUS",
+      "B",
+      "通道",
+      "总线",
+      "滤波器"
+    ],
+    "decimal_backend": "decimal.Decimal",
+    "lossless_only": true,
+    "multiple_payload_numbers": "fail_closed",
+    "ambiguous_multiplier": "fail_closed"
+  },
+  "semantic_concepts": {
+    "factor": {
+      "surfaces": [
+        "系数",
+        "倍率",
+        "倍数"
+      ],
+      "target_command_tokens": [
+        "factor",
+        "ratio"
+      ],
+      "target_description_terms": [
+        "系数",
+        "倍率",
+        "倍数"
+      ]
+    },
+    "horizontal": {
+      "surfaces": [
+        "水平"
+      ],
+      "target_command_tokens": [
+        "horizontal",
+        "hbars"
+      ],
+      "target_description_terms": [
+        "水平"
+      ],
+      "exclusive_group": "axis"
+    },
+    "vertical": {
+      "surfaces": [
+        "垂直"
+      ],
+      "target_command_tokens": [
+        "vertical"
+      ],
+      "target_description_terms": [
+        "垂直"
+      ],
+      "exclusive_group": "axis"
+    },
+    "statistics": {
+      "surfaces": [
+        "统计"
+      ],
+      "target_command_tokens": [
+        "statistics"
+      ],
+      "target_description_terms": [
+        "统计"
+      ]
+    },
+    "reset": {
+      "surfaces": [
+        "复位",
+        "重置",
+        "初始化"
+      ],
+      "target_command_tokens": [
+        "reset"
+      ],
+      "target_description_terms": [
+        "复位",
+        "重置",
+        "初始化"
+      ],
+      "target_parameter_values": [
+        "RESET"
+      ]
+    },
+    "label": {
+      "surfaces": [
+        "标签"
+      ],
+      "target_command_tokens": [
+        "label"
+      ],
+      "target_description_terms": [
+        "标签"
+      ]
+    },
+    "output": {
+      "surfaces": [
+        "输出"
+      ],
+      "target_command_tokens": [
+        "output"
+      ],
+      "target_description_terms": [
+        "输出"
+      ]
+    },
+    "reference": {
+      "surfaces": [
+        "参考"
+      ],
+      "target_command_tokens": [
+        "reference",
+        "href",
+        "ref"
+      ],
+      "target_description_terms": [
+        "参考"
+      ]
+    },
+    "mode": {
+      "surfaces": [
+        "模式"
+      ],
+      "target_command_tokens": [
+        "mode"
+      ],
+      "target_description_terms": [
+        "模式"
+      ]
+    },
+    "source": {
+      "surfaces": [
+        "信号源",
+        "信源",
+        "源"
+      ],
+      "target_command_tokens": [
+        "source"
+      ],
+      "target_description_terms": [
+        "信号源",
+        "信源"
+      ]
+    },
+    "bit_rate": {
+      "surfaces": [
+        "波特率",
+        "比特率"
+      ],
+      "target_command_tokens": [
+        "bitrate"
+      ],
+      "target_description_terms": [
+        "波特率",
+        "比特率"
+      ]
+    },
+    "impedance": {
+      "surfaces": [
+        "阻抗"
+      ],
+      "target_command_tokens": [
+        "impedance"
+      ],
+      "target_description_terms": [
+        "阻抗"
+      ]
+    },
+    "high_impedance": {
+      "surfaces": [
+        "高阻",
+        "高阻抗"
+      ],
+      "target_description_terms": [
+        "highz 设置高阻"
+      ],
+      "target_parameter_values": [
+        "HIGHZ"
+      ]
+    },
+    "cursor": {
+      "surfaces": [
+        "光标"
+      ],
+      "target_command_tokens": [
+        "cursor"
+      ],
+      "target_description_terms": [
+        "光标"
+      ]
+    },
+    "cursor_area": {
+      "surfaces": [
+        "光标区域",
+        "主波形区域",
+        "主窗口"
+      ],
+      "target_command_tokens": [
+        "cursor:area"
+      ],
+      "target_description_terms": [
+        "cursor 所在区域",
+        "主波形区域",
+        "zoom 波形区域"
+      ]
+    },
+    "waveform_save": {
+      "surfaces": [
+        "保存到参考波形",
+        "波形保存到参考",
+        "保存当前波形"
+      ],
+      "target_description_terms": [
+        "保存波形数据到ref"
+      ],
+      "target_parameter_values": [
+        "SAVE"
+      ]
+    },
+    "recall_setup": {
+      "surfaces": [
+        "调用存储",
+        "恢复保存",
+        "载入已保存",
+        "调用保存"
+      ],
+      "target_command_tokens": [
+        "*rcl"
+      ],
+      "target_description_terms": [
+        "恢复保存的设置状态"
+      ]
+    },
+    "nth_edge": {
+      "surfaces": [
+        "边沿"
+      ],
+      "target_command_tokens": [
+        "nedge:edge"
+      ],
+      "target_description_terms": [
+        "第N边沿",
+        "第n个边沿",
+        "边沿序号"
+      ]
+    },
+    "encoding": {
+      "surfaces": [
+        "编码"
+      ],
+      "target_command_tokens": [
+        "encoding",
+        "encdg"
+      ],
+      "target_description_terms": [
+        "编码"
+      ]
+    },
+    "trigger": {
+      "surfaces": [
+        "触发"
+      ],
+      "target_command_tokens": [
+        "trigger"
+      ],
+      "target_description_terms": [
+        "触发"
+      ]
+    },
+    "logic": {
+      "surfaces": [
+        "逻辑"
+      ],
+      "target_command_tokens": [
+        "logic"
+      ],
+      "target_description_terms": [
+        "逻辑"
+      ]
+    },
+    "average_count": {
+      "surfaces": [
+        "平均采集次数",
+        "平均次数"
+      ],
+      "target_command_tokens": [
+        "numavg"
+      ],
+      "target_description_terms": [
+        "平均采集次数",
+        "平均次数"
+      ]
+    },
+    "template": {
+      "surfaces": [
+        "模板"
+      ],
+      "target_command_tokens": [
+        "mask"
+      ],
+      "target_description_terms": [
+        "模板"
+      ]
+    }
+  },
+  "technical_token_patterns": [
+    "\\*[A-Za-z]+\\??",
+    "[A-Za-z][A-Za-z0-9]*(?::[A-Za-z][A-Za-z0-9]*(?:\\[[^\\]]+\\])?)*\\??",
+    "(?:CH|REF|AFG|MATH|FFT|BUS|MEAS|SOURCE|D)[0-9]+"
+  ],
+  "term_derivation": {
+    "minimum_operation_support": 3,
+    "minimum_semantic_fragment_support": 2,
+    "minimum_semantic_fragment_characters": 2,
+    "maximum_semantic_fragment_characters": 12,
+    "maximum_fragment_command_family_count": 1,
+    "required_operation_purity": 1.0,
+    "term_catalog_requires_unique_rebinding": true,
+    "approved_language_can_add_deterministic_bound_fragments": true,
+    "description_token_selection_requires_cross_evidence": true
+  },
+  "function_words": [
+    "一个",
+    "一下",
+    "一次",
+    "将",
+    "把",
+    "的",
+    "当前",
+    "进行",
+    "设置为",
+    "设为",
+    "设成",
+    "改成",
+    "切换到",
+    "切换为",
+    "是否"
+  ],
+  "clarification": {
+    "default_ttl_seconds": 300,
+    "single_use": true,
+    "max_missing_slots": 4
+  },
+  "candidate_filter_order": [
+    "catalog_integrity",
+    "implementation_voice_eligibility",
+    "operation",
+    "module_object",
+    "property_action",
+    "path_slot",
+    "required_input_slot",
+    "parameter_type",
+    "enum_discrete_range_unit",
+    "positive_evidence",
+    "contradiction_negation",
+    "schema_prevalidation",
+    "serializer_prevalidation",
+    "runtime_capability"
+  ],
+  "forbidden_sources": [
+    "case_id",
+    "gold_payload",
+    "test",
+    "challenge",
+    "historical_model_error_map",
+    "network",
+    "second_model"
+  ]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "path": "app/libs/sherpa-onnx-1.13.8-rknn.aar",
+    "bytes": 26598297,
+    "sha256": "33489f8d039e8f29907a0abeeacd3ddc006a78335799928855ce5f98280fc876"
+  },
+  {
+    "path": "app/src/main/assets/pc_asr_text_rules.json",
+    "bytes": 74555,
+    "sha256": "efc0def066cb0c53737b302b391f31bf0e8403c336d81368399e4638625e98b3"
+  },
+  {
+    "path": "app/src/main/assets/pc_semantic_guard.json",
+    "bytes": 848,
+    "sha256": "7c53f09543a024a7f98ded8ba4fcaaba415e9f393674c23e86a1378666f55ccc"
+  },
+  {
+    "path": "app/src/main/assets/resource_catalog.json",
+    "bytes": 10354,
+    "sha256": "9386f14ea465e3b52bbf9d333f2311478ef3fb396d01d2e3f051f7b88d2674db"
+  },
+  {
+    "path": "app/src/main/assets/scpi_contract.json",
+    "bytes": 1211444,
+    "sha256": "c8cc683d52cca79f2b2e37dbd93f42994899d690e653d9663c5a3aec168b5755"
+  },
+  {
+    "path": "app/src/main/assets/single_instruction_en_template.txt",
+    "bytes": 2988,
+    "sha256": "b2d71957305b36beb75dc06814a9433eeb8b009f59015da9b4a93ada1a7f73fe"
+  },
+  {
+    "path": "app/src/main/assets/single_instruction_runtime_config.json",
+    "bytes": 1032,
+    "sha256": "986ea4fd0da217fd34b8e7eab790a090649f0a0ae2e1c605c773a6d83ed0b546"
+  },
+  {
+    "path": "app/src/main/assets/single_instruction_workflow_v2_en_template.txt",
+    "bytes": 3170,
+    "sha256": "bc7bccd18e274a693b5e026fa27255de531f0e87370302d2bda5d2bd229b255b"
+  },
+  {
+    "path": "app/src/main/assets/single_instruction_workflow_v2_zh_template.txt",
+    "bytes": 1027,
+    "sha256": "a29ddc06be71f2a3f95f7f6d35c8ba7b0ba3e2fe68062c687f2d18d9c0e03791"
+  },
+  {
+    "path": "app/src/main/assets/single_instruction_zh_template.txt",
+    "bytes": 933,
+    "sha256": "5584e73450f282e387bdd76c94ebe1e8c7f88a98b81330bf2a6c16c426ca3455"
+  },
+  {
+    "path": "app/src/main/assets/tokenizer/added_tokens.json",
+    "bytes": 735,
+    "sha256": "79f6ec6fcc423d3a82bfac8b9033b1daac7b7bce06a5f5f441637b480cc605de"
+  },
+  {
+    "path": "app/src/main/assets/tokenizer/merges.txt",
+    "bytes": 1671853,
+    "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+    "path": "app/src/main/assets/tokenizer/special_tokens_map.json",
+    "bytes": 644,
+    "sha256": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a"
+  },
+  {
+    "path": "app/src/main/assets/tokenizer/tokenizer.json",
+    "bytes": 11422654,
+    "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+    "path": "app/src/main/assets/tokenizer/tokenizer_config.json",
+    "bytes": 10002,
+    "sha256": "d05bffbedc252ded43082889a293fd3641391f6401105169271d1bd32b50b561"
+  },
+  {
+    "path": "app/src/main/assets/tokenizer/vocab.json",
+    "bytes": 2776833,
+    "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+    "path": "app/src/main/assets/speech/text/action_aliases.json",
+    "bytes": 991,
+    "sha256": "22d2cbc14757fab3e41cddf7556e435fd59a20361cc0f5287c5e0400a943e8c5"
+  },
+  {
+    "path": "app/src/main/assets/speech/text/commands.txt",
+    "bytes": 64033,
+    "sha256": "c4a8ca738a1f7b9bc44640c4fd4e1ca9add30b89ebab35880a702bfc48d7398d"
+  },
+  {
+    "path": "app/src/main/assets/speech/text/domain_terms.json",
+    "bytes": 3094,
+    "sha256": "755037a3c21f94ed21f180cb0fe6abde532a43ed7587a3ce579df5dd3e100e9d"
+  },
+  {
+    "path": "app/src/main/assets/speech/text/fixes.txt",
+    "bytes": 4008,
+    "sha256": "f9b8314e91c8e26b3e35be8096db3386896c998ed1e89cdef2917ebb82b9542b"
+  },
+  {
+    "path": "app/src/main/assets/speech/text/negative_terms.json",
+    "bytes": 164,
+    "sha256": "a3f22039832f5b81910b66e22dc4822dd5ce4a8f5c541710888e02079edee9f6"
+  },
+  {
+    "path": "app/src/main/assets/speech/text/synonyms.json",
+    "bytes": 168,
+    "sha256": "53ae25b462bf44390a49b3fa24421c2b13099196cd019401c2db789321afb785"
+  },
+  {
+    "path": "app/src/main/assets/speech/text/weights.txt",
+    "bytes": 1125,
+    "sha256": "f86bab4c9549c35742c7ef303491f8b237419816d302757e69b87cad735c1bce"
+  },
+  {
+    "path": "app/src/main/jniLibs/arm64-v8a/libenglish_asr.so",
+    "bytes": 18483832,
+    "sha256": "04e4f5a5422b72d3817ebdc3db56f445d26b5993fdfbb022e2c4ed8e33511fce"
+  },
+  {
+    "path": "app/src/main/jniLibs/arm64-v8a/libomp.so",
+    "bytes": 954680,
+    "sha256": "1c4db1866bef4228365dc2a44264f7452b9f7af35e100bcbecf05c24b02bfe6f"
+  },
+  {
+    "path": "app/src/main/jniLibs/arm64-v8a/librkllmrt.so",
+    "bytes": 8767960,
+    "sha256": "84b247f2efe16096551698f2d21ab4340a4663a2c7ef03773a8ef0b441668e55"
+  },
+  {
+    "path": "app/src/main/jniLibs/arm64-v8a/librkllm_bridge.so",
+    "bytes": 852512,
+    "sha256": "4e91bd2f23a860719ebf003c1061895ad6ca70be73be3d19268fbc1f9f2c7647"
+  }
+]

@@ -1,0 +1,13 @@
+**/build/
+**/.gradle/
+**/.idea/
+**/local.properties
+**/signing/
+*.apk
+*.jks
+*.keystore
+*.aar
+*.so
+*.onnx
+*.rknn
+*.rkllm
