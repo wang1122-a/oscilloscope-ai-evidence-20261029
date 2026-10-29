@@ -1,0 +1,13 @@
+﻿sha,author_date,commit_date,subject
+4e4bc985f4efe8e7cdb57296e388cfae11285986,2026-09-15T21:43:40+08:00,2026-09-15T21:43:40+08:00,fix(android): correct OWON wake pronunciation
+26d671bff4cf5a816c7c9d35ef30950ea0083c17,2026-09-15T21:28:05+08:00,2026-09-15T21:28:05+08:00,fix(android): use a valid English wake label
+b9eb817146e2b1d6fd6abbb7da8d015521089060,2026-09-15T20:41:06+08:00,2026-09-15T20:41:06+08:00,feat(android): add bilingual OWON wake words
+76912eac5387126e23afcc3d50dcff70be17133f,2026-09-13T15:20:46+08:00,2026-09-13T15:20:46+08:00,feat(android): integrate offline bilingual Melo TTS with cancellable feedback
+bbda24050bf80df2002f6e42bec5f22ed013a09c,2026-09-13T10:15:01+08:00,2026-09-13T10:15:01+08:00,fix(android): use Java APIs available on Android 12
+65d52b539a3f7ad8403e2cf96f31bbd118c85cac,2026-09-12T17:10:16+08:00,2026-09-12T17:10:16+08:00,refactor(android): migrate business runtime to Java with serial ownership
+104ba1c7f032266ca1532670a52b933da6e486bf,2026-09-12T16:43:49+08:00,2026-09-12T16:43:49+08:00,baseline(android): archive v1.2.1 Kotlin source before Java migration
+4520277d3090335a3a637493aadb3871cd34ae75,2026-09-08T21:38:32+08:00,2026-09-08T21:38:32+08:00,fix(android): stabilize v1.1 control and transport
+deb85650e33d47cda67825d9819506b9a98ff31d,2026-09-08T19:56:40+08:00,2026-09-08T19:56:40+08:00,baseline(android): preserve self-contained v1 source
+22bbcebe16dca530dce1b6bd034c9626a3942549,2026-09-08T19:55:53+08:00,2026-09-08T19:55:53+08:00,baseline: preserve PC compatibility updates
+2f45fc8c0dfedc3f970aaf5961737e7558dedd83,2026-08-12T17:12:54+08:00,2026-08-12T17:12:54+08:00,参数修改未测试版
+42d3251d8acb1d63ac0d36eaf210a7fe060e7039,2026-08-11T18:45:03+08:00,2026-08-11T18:45:03+08:00,查询设置类1--参数设置不对版
